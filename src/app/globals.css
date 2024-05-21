@@ -2,8 +2,17 @@
 @tailwind components;
 @tailwind utilities;
 
+
+a,button {
+  @apply focus:outline-none focus:outline-blue-500 focus:outline-offset-4;
+}
+
+html {
+  @apply scroll-smooth;
+}
+
 body {
-  @apply text-white
+  @apply text-white;
 }
 
 a {

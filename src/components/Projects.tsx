@@ -33,7 +33,7 @@ const projects = [
 
 const Projects = () => {
   return (
-    <Section background="dark">
+    <Section background="dark" id="projects">
       <Subtitle className="text-center">Portfolio</Subtitle>
       <h3 className="mt-6 text-center text-4xl">Latest Work</h3>
 

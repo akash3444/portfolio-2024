@@ -1,5 +1,5 @@
 import React from "react";
-import { DesktopIcon, PlusIcon } from "./Icons";
+import { DesktopIcon, PlusIcon, TerminalIcon } from "./Icons";
 import Button from "@/shared/Button";
 import Link from "next/link";
 import Section from "@/shared/Section";
@@ -7,25 +7,25 @@ import Subtitle from "./Typography";
 
 const services = [
   {
-    name: "Design",
+    name: "UI to Web",
     icon: DesktopIcon,
     description:
-      "Agency is a business you hire to outsource your digital marketing efforts, instead of handling in-house.",
+      "Transforming wireframes into dynamic web interfaces and developing websites using React.js/Next.js, along with UI libraries like Tailwind CSS and Shadcn UI.",
   },
   {
     name: "Development",
-    icon: DesktopIcon,
+    icon: TerminalIcon,
     description:
-      "Hire to outsource your digital marketing efforts, instead of handling in-house can provide your business.",
+      "Specializing in React.js and Next.js, I build robust, responsive web applications that perform seamlessly across devices. Let's turn your ideas into reality with top-notch code.",
   },
 ];
 
 const Services = () => {
   return (
-    <Section>
-      <Subtitle className="text-center">Service</Subtitle>
+    <Section id="services">
+      <Subtitle className="text-center">Services</Subtitle>
       <h3 className="mt-6 text-center text-4xl text-slate-950">
-        How I Can Help You With
+        How I Can Help You
       </h3>
 
       <div className="mt-10 divide-y divide-slate-300 rounded-lg border border-slate-300 md:flex md:divide-x md:divide-y-0">
@@ -37,9 +37,9 @@ const Services = () => {
               </div>
               <h4 className="text-2xl font-semibold text-slate-950">{name}</h4>
             </div>
-            <p className="mt-6 text-slate-700">{description}</p>
+            <p className="mt-6 leading-7 text-slate-700">{description}</p>
 
-            <Button className="mt-4 px-0 text-slate-900">
+            <Button className="mt-4 px-0 text-red-600">
               <PlusIcon className="h-5 w-5" />
               Learn More
             </Button>

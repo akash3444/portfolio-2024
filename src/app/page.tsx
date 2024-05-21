@@ -11,6 +11,7 @@ import Services from "@/components/Services";
 import Subtitle from "@/components/Typography";
 import Button from "@/shared/Button";
 import Section from "@/shared/Section";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -23,15 +24,18 @@ export default function Home() {
           <div className="mt-8 md:max-w-xl">
             <Subtitle>Akash Moradiya</Subtitle>
             <h1 className="mt-4 text-5xl font-bold leading-tight lg:text-6xl lg:leading-tight">
-              The Simple, Clean Design
+              Crafting Engaging Web Experiences
             </h1>
-            <p className="mt-2 text-slate-300">
-              Agency provides a full service range including technical skills,
-              design, business understanding.
+            <p className="mt-2 leading-7 text-slate-300">
+              I&apos;m Akash Moradiya, a front-end engineer with 2.5+ years of
+              experience in React.js and Next.js. I specialize in creating
+              efficient, scalable, and user-friendly applications.
             </p>
-            <Button className="mt-4" variant="contained">
-              See My Work
-            </Button>
+            <Link href="#projects">
+              <Button className="mt-8" variant="contained">
+                See My Work
+              </Button>
+            </Link>
           </div>
         </div>
       </Section>

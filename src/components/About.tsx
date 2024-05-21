@@ -2,25 +2,45 @@ import Section from "@/shared/Section";
 import { PhoneAndAccessories } from "./Abstracts";
 import Subtitle from "./Typography";
 import Button from "@/shared/Button";
+import {
+  NextIcon,
+  ReactIcon,
+  ReduxIcon,
+  TailwindIcon,
+  TypeScriptIcon,
+} from "./Icons";
 
 const About = () => {
   return (
-    <Section>
+    <Section id="about">
       <div className="flex flex-col gap-10 md:flex-row md:items-center md:gap-20">
-        <PhoneAndAccessories className="h-80 w-full md:h-auto md:max-w-lg" />
+        <PhoneAndAccessories className="w-full shrink-0 md:w-1/2 md:md:max-w-lg" />
         <div>
           <Subtitle>Akash Moradiya</Subtitle>
           <h3 className="mt-6 text-4xl text-slate-950">
             Professional Web Designer
           </h3>
           <p className="mt-4 text-slate-600">
-            Ability to put themselves in the merchant&apos;s shoes. It is meant
-            to partner on the long run, and work as an extension of the
-            merchant&apos;s team.
+            I excel at transforming wireframes into polished, responsive web
+            interfaces, leveraging modern UI libraries such as Tailwind CSS and
+            Shadcn UI. My expertise also includes integrating APIs to ensure
+            seamless and efficient web application functionality. Dedicated to
+            delivering high-quality, scalable solutions, I am committed to
+            enhancing user experiences through innovative web technologies.
           </p>
-          <Button variant="contained" className="mt-8">
-            About Me
-          </Button>
+
+          <div className="mt-6">
+            <h6 className="mb-2 text-lg font-semibold text-slate-950">
+              My Tech Stack
+            </h6>
+            <div className="flex items-center gap-4 text-red-500">
+              <TypeScriptIcon />
+              <ReactIcon />
+              <NextIcon />
+              <TailwindIcon />
+              <ReduxIcon />
+            </div>
+          </div>
         </div>
       </div>
 

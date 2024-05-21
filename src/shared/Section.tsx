@@ -12,6 +12,7 @@ const Section: FC<SectionProps> = ({
   className,
   children,
   component: Component = "section",
+  ...props
 }) => {
   return (
     <Component
@@ -20,6 +21,7 @@ const Section: FC<SectionProps> = ({
         "bg-slate-950": background === "dark",
         [background]: background !== "light" && background !== "dark",
       })}
+      {...props}
     >
       <div className={cn("mx-auto max-w-6xl px-6 py-14 md:py-20", className)}>
         {children}
