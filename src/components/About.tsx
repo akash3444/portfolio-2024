@@ -6,6 +6,7 @@ import {
   NextIcon,
   ReactIcon,
   ReduxIcon,
+  ShadCnUiIcon,
   TailwindIcon,
   TypeScriptIcon,
 } from "./Icons";
@@ -34,10 +35,11 @@ const About = () => {
               My Tech Stack
             </h6>
             <div className="flex items-center gap-4 text-red-500">
-              <TypeScriptIcon />
               <ReactIcon />
               <NextIcon />
+              <TypeScriptIcon />
               <TailwindIcon />
+              <ShadCnUiIcon />
               <ReduxIcon />
             </div>
           </div>

@@ -1,32 +1,15 @@
 import Logo from "@/shared/Logo";
 import Section from "@/shared/Section";
 import Link from "next/link";
-import React from "react";
-import Subtitle from "./Typography";
-import { GithubIcon, LinkedInIcon, TwitterIcon } from "./Icons";
 import Socials from "./Socials";
+import Subtitle from "./Typography";
+import { navbarLinks } from "@/description/navbar";
+import Copyright from "./Copyright";
 
 const sections = [
   {
     name: "Menu",
-    links: [
-      {
-        name: "About",
-        href: "#",
-      },
-      {
-        name: "Services",
-        href: "#",
-      },
-      {
-        name: "Blog",
-        href: "#",
-      },
-      {
-        name: "Contact",
-        href: "#",
-      },
-    ],
+    links: navbarLinks,
   },
   {
     name: "Services",
@@ -76,10 +59,7 @@ const Footer = () => {
         </div>
         <Socials className="justify-center" />
       </div>
-      <p className="py-10 text-center leading-loose text-slate-300">
-        Copyright &copy; {new Date().getFullYear()} Akash.
-        All&nbsp;Rights&nbsp;Reserved.
-      </p>
+      <Copyright className="py-10" />
     </Section>
   );
 };

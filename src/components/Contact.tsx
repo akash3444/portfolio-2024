@@ -2,6 +2,7 @@ import Section from "@/shared/Section";
 import { Mail } from "./Abstracts";
 import Subtitle from "./Typography";
 import Button from "@/shared/Button";
+import Link from "next/link";
 
 const Contact = () => {
   return (
@@ -14,14 +15,19 @@ const Contact = () => {
         <h5 className="mt-4 text-3xl font-bold text-slate-950">
           I Help Companies Move Faster
         </h5>
-        <Button variant="contained" className="mt-6">
-          Contact Me
-        </Button>
+        <Link
+          href="https://www.upwork.com/freelancers/~018f16af62f6d209b4"
+          target="_blank"
+        >
+          <Button variant="contained" className="mt-6">
+            Hire Me
+          </Button>
+        </Link>
       </div>
       <div className="items-center md:flex">
         <p className="text-slate-700">
-          Put themselves in the merchant&apos;s shoes. It is meant to partner on
-          the long run.
+          Boost your business with expert digital solutions. Let&apos;s
+          accelerate your growth together.
         </p>
         <Mail className="w-full" />
       </div>

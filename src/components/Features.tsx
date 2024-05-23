@@ -13,10 +13,10 @@ const Features = () => {
       <FeaturesAbstract className="h-80 w-full md:h-auto md:max-w-md" />
       <div className="md:max-w-sm">
         <Subtitle>Features</Subtitle>
-        <h3 className="mt-6 text-4xl">Give Your Site A New Look</h3>
+        <h3 className="mt-6 text-4xl">Transform Your Online Presence</h3>
         <p className="mt-4">
-          Service range including technical skills, design, business
-          understanding.
+          I offer a comprehensive range of services designed to elevate your
+          website and provide a seamless user experience.
         </p>
 
         <ul className="mt-8 space-y-4 text-slate-300">
@@ -24,19 +24,19 @@ const Features = () => {
             <div className="flex h-8 w-8 items-center justify-center rounded-full bg-red-500 text-white">
               <CheckIcon className="h-5 w-5" />
             </div>
-            Range including technical skills
+            Expert Technical Skills
           </li>
           <li className="flex items-center gap-3">
             <div className="flex h-8 w-8 items-center justify-center rounded-full bg-red-500 text-white">
               <CheckIcon className="h-5 w-5" />
             </div>
-            Business understanding
+            Enhanced Performance
           </li>
           <li className="flex items-center gap-3">
             <div className="flex h-8 w-8 items-center justify-center rounded-full bg-red-500 text-white">
               <CheckIcon className="h-5 w-5" />
             </div>
-            Partner on the long run
+            Maintenance and Optimization
           </li>
         </ul>
       </div>
