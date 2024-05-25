@@ -1,12 +1,9 @@
-import Button from "@/shared/Button";
-import Input from "@/shared/Input";
 import Section from "@/shared/Section";
-import Textarea from "@/shared/Textarea";
-import React from "react";
-import Subtitle from "./Typography";
-import { LinkedInIcon, MailIcon, TwitterIcon } from "./Icons";
-import Socials from "./Socials";
 import Link from "next/link";
+import ContactForm from "./ContactForm";
+import { MailIcon } from "./Icons";
+import Socials from "./Socials";
+import Subtitle from "./Typography";
 
 const ContactMe = () => {
   return (
@@ -15,15 +12,7 @@ const ContactMe = () => {
       className="grid grid-cols-1 items-center gap-14 md:grid-cols-2"
       id="contact"
     >
-      <div className="space-y-4 rounded-lg bg-white px-7 py-12">
-        <h4 className="text-3xl font-bold text-slate-950">Get In Touch</h4>
-        <Input placeholder="Your Email" fullWidth />
-        <Input placeholder="Subject" fullWidth />
-        <Textarea placeholder="Message" rows={3} fullWidth />
-        <Button variant="contained" fullWidth>
-          Submit
-        </Button>
-      </div>
+      <ContactForm />
       <div>
         <Subtitle>Contact</Subtitle>
         <h3 className="mt-4 text-4xl">Contact Me</h3>

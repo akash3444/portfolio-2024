@@ -1,21 +1,33 @@
 import { cn } from "@/utils/lib";
-import React, { ComponentProps, FC } from "react";
+import { ComponentProps, ForwardRefRenderFunction, forwardRef } from "react";
 
 interface InputProps extends ComponentProps<"input"> {
   fullWidth?: boolean;
+  error?: string;
 }
 
-const Input: FC<InputProps> = ({ className, fullWidth, ...props }) => {
+const Input: ForwardRefRenderFunction<HTMLInputElement, InputProps> = (
+  { className, fullWidth, error, ...props },
+  ref,
+) => {
   return (
-    <input
-      className={cn(
-        "h-12 rounded border px-3 py-1 focus:outline-none focus:ring-2",
-        { "w-full": fullWidth },
-        className,
+    <div>
+      <input
+        ref={ref}
+        className={cn(
+          "h-12 rounded border px-3 py-1 text-slate-950 focus:outline-none focus:ring-2",
+          { "w-full": fullWidth },
+          className,
+        )}
+        {...props}
+      />
+      {!!error && (
+        <span className="mt-1.5 inline-block text-sm text-red-500">
+          {error}
+        </span>
       )}
-      {...props}
-    />
+    </div>
   );
 };
 
-export default Input;
+export default forwardRef(Input);

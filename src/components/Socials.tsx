@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { GithubIcon, LinkedInIcon, TwitterIcon } from "./Icons";
+import { GithubIcon, LinkedInIcon, TwitterIcon, UpWorkIcon } from "./Icons";
 import { ComponentProps, FC } from "react";
 import { cn } from "@/utils/lib";
 
@@ -15,6 +15,10 @@ const socialLinks = [
   {
     href: "https://github.com/akash3444",
     icon: GithubIcon,
+  },
+  {
+    href: "https://www.upwork.com/freelancers/akashmoradiya5",
+    icon: UpWorkIcon,
   },
 ];
 

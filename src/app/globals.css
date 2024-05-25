@@ -4,7 +4,7 @@
 
 
 a,button {
-  @apply focus:outline-none focus:outline-blue-500 focus:outline-offset-4;
+  @apply focus-visible:outline-none focus-visible:outline-blue-500 focus-visible:outline-offset-4;
 }
 
 html {

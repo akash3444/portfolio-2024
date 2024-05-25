@@ -1,21 +1,33 @@
 import { cn } from "@/utils/lib";
-import React, { ComponentProps, FC } from "react";
+import { ComponentProps, ForwardRefRenderFunction, forwardRef } from "react";
 
 interface TextareaProps extends ComponentProps<"textarea"> {
   fullWidth?: boolean;
+  error?: string;
 }
 
-const Textarea: FC<TextareaProps> = ({ className, fullWidth, ...props }) => {
+const Textarea: ForwardRefRenderFunction<HTMLTextAreaElement, TextareaProps> = (
+  { className, fullWidth, error, ...props },
+  ref,
+) => {
   return (
-    <textarea
-      className={cn(
-        "rounded border p-3 focus:outline-none focus:ring-2",
-        { "w-full": fullWidth },
-        className,
+    <div>
+      <textarea
+        ref={ref}
+        className={cn(
+          "rounded border p-3 text-slate-950 focus:outline-none focus:ring-2",
+          { "w-full": fullWidth },
+          className,
+        )}
+        {...props}
+      />
+      {!!error && (
+        <span className="mt-1.5 inline-block text-sm text-red-500">
+          {error}
+        </span>
       )}
-      {...props}
-    />
+    </div>
   );
 };
 
-export default Textarea;
+export default forwardRef(Textarea);
