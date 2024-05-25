@@ -6,34 +6,6 @@ import Subtitle from "./Typography";
 import { navbarLinks } from "@/description/navbar";
 import Copyright from "./Copyright";
 
-const sections = [
-  {
-    name: "Menu",
-    links: navbarLinks,
-  },
-  {
-    name: "Services",
-    links: [
-      {
-        name: "Design",
-        href: "#",
-      },
-      {
-        name: "Development",
-        href: "#",
-      },
-      {
-        name: "Marketing",
-        href: "#",
-      },
-      {
-        name: "See More",
-        href: "#",
-      },
-    ],
-  },
-];
-
 const Footer = () => {
   return (
     <Section
@@ -41,23 +13,16 @@ const Footer = () => {
       background="dark"
       className="divide-y divide-slate-700 py-0 md:py-0"
     >
-      <div className="grid grid-cols-1 items-start gap-12 py-10 sm:grid-cols-4">
-        <Logo />
-        <div className="grid grid-cols-2 gap-4 sm:col-span-2">
-          {sections.map(({ name, links }) => (
-            <div key={name}>
-              <Subtitle className="mb-4">{name}</Subtitle>
-              <ul className="space-y-1.5">
-                {links.map(({ name, href }) => (
-                  <li key={name}>
-                    <Link href={href}>{name}</Link>
-                  </li>
-                ))}
-              </ul>
-            </div>
+      <div className="space-y-12 py-10">
+        <Logo className="mx-auto max-w-max" />
+        <ul className="flex flex-wrap items-center justify-center gap-6 md:gap-12">
+          {navbarLinks.map(({ name, href }) => (
+            <li key={name}>
+              <Link href={href}>{name}</Link>
+            </li>
           ))}
-        </div>
-        <Socials className="justify-center" />
+        </ul>
+        <Socials className="justify-center gap-8" />
       </div>
       <Copyright className="py-10" />
     </Section>
