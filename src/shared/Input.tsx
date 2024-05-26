@@ -15,8 +15,9 @@ const Input: ForwardRefRenderFunction<HTMLInputElement, InputProps> = (
       <input
         ref={ref}
         className={cn(
-          "h-12 rounded border px-3 py-1 text-slate-950 focus:outline-none focus:ring-2",
+          "h-12 rounded border px-3 py-1 text-slate-950 focus:outline-none focus:ring-2 focus:ring-blue-500",
           { "w-full": fullWidth },
+          { "focus:ring-red-500": !!error },
           className,
         )}
         {...props}

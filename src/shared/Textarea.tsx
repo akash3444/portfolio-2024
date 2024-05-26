@@ -15,8 +15,9 @@ const Textarea: ForwardRefRenderFunction<HTMLTextAreaElement, TextareaProps> = (
       <textarea
         ref={ref}
         className={cn(
-          "rounded border p-3 text-slate-950 focus:outline-none focus:ring-2",
+          "rounded border p-3 text-slate-950 focus:outline-none focus:ring-2 focus:ring-blue-500",
           { "w-full": fullWidth },
+          { "focus:ring-red-500": !!error },
           className,
         )}
         {...props}
