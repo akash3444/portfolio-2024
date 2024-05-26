@@ -41,9 +41,9 @@ export default function Home() {
       </Section>
 
       <main>
-        <Services />
-        <Projects />
         <About />
+        <Projects />
+        <Services />
         <Features />
         <Contact />
         <ContactMe />
