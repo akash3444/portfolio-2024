@@ -8,6 +8,9 @@ export const metadata: Metadata = {
   title: "Akash Moradiya - Portfolio",
   description:
     "The portfolio of Akash Moradiya, a React.js developer with more than 2 years of experience.",
+  openGraph: {
+    images: ["https://akash-portfolio-2024.vercel.app/og-image.png"],
+  },
 };
 
 export default function RootLayout({
