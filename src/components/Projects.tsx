@@ -5,6 +5,7 @@ import { FC, Fragment, SVGProps } from "react";
 import {
   ArrowUpRightIcon,
   NextIcon,
+  NextUiIcon,
   ReactIcon,
   ShadCnUiIcon,
   TailwindIcon,
@@ -23,7 +24,7 @@ const projects = [
     Tailwind CSS, Next UI, and TypeScript.`,
     imageUrl: "/projects/hashnode-hub.png",
     url: "https://hashnode-hub.vercel.app/",
-    technologies: ["react", "next", "typescript", "tailwind"],
+    technologies: ["react", "next", "typescript", "tailwind", "nextUi"],
   },
   {
     name: "Little Learners Academy",
@@ -46,6 +47,13 @@ const projects = [
     url: "https://mass-unit-converter.vercel.app/",
     technologies: ["react", "next", "tailwind"],
   },
+  {
+    name: "Anime World",
+    description: `Anime World is a dynamic website dedicated to listing animes, mangas, and characters. With a sleek and intuitive interface, users can effortlessly browse and view detailed information about their favorite animes and mangas, as well as explore character profiles. Built using React, Next.js, and Chakra UI, Anime World offers a seamless and engaging user experience for anime enthusiasts.`,
+    imageUrl: "/projects/anime-world.png",
+    url: "https://anime-world-nextjs.vercel.app/",
+    technologies: ["react", "next"],
+  },
 ];
 
 const icons: Record<string, FC<SVGProps<SVGSVGElement>>> = {
@@ -54,6 +62,7 @@ const icons: Record<string, FC<SVGProps<SVGSVGElement>>> = {
   tailwind: TailwindIcon,
   shadcn: ShadCnUiIcon,
   typescript: TypeScriptIcon,
+  nextUi: NextUiIcon,
 };
 
 const Projects = () => {

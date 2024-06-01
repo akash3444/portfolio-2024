@@ -16,8 +16,8 @@ const Navbar = () => {
 
   return (
     <nav
-      className={cn("flex items-center justify-between bg-slate-950 py-6", {
-        "fixed inset-x-0 top-0 z-10 px-6 md:static": isMenuOpen,
+      className={cn("flex items-center justify-between py-6", {
+        "fixed inset-x-0 top-0 z-10 bg-slate-950 px-6 md:static": isMenuOpen,
       })}
     >
       <Logo />

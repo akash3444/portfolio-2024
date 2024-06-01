@@ -1,15 +1,15 @@
 import Section from "@/shared/Section";
 import { PhoneAndAccessories } from "./Abstracts";
-import Subtitle from "./Typography";
-import Button from "@/shared/Button";
 import {
   NextIcon,
+  NextUiIcon,
   ReactIcon,
   ReduxIcon,
   ShadCnUiIcon,
   TailwindIcon,
   TypeScriptIcon,
 } from "./Icons";
+import Subtitle from "./Typography";
 
 const About = () => {
   return (
@@ -40,6 +40,7 @@ const About = () => {
               <TypeScriptIcon />
               <TailwindIcon />
               <ShadCnUiIcon />
+              <NextUiIcon />
               <ReduxIcon />
             </div>
           </div>
