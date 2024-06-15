@@ -4,12 +4,29 @@ import "./globals.css";
 
 const epilogue = Epilogue({ subsets: ["latin"] });
 
+const title = "Akash Moradiya | React.js/Next.js Developer";
+const description =
+  "Akash Moradiya is a skilled React.js and Next.js developer with over 2 years of experience in building dynamic and responsive web applications. Explore my portfolio to see my work and projects.";
+
 export const metadata: Metadata = {
-  title: "Akash Moradiya - Portfolio",
-  description:
-    "The portfolio of Akash Moradiya, a React.js developer with more than 2 years of experience.",
+  title,
+  description,
+  keywords:
+    "Akash Moradiya, React.js developer, Next.js developer, React developer, Next developer, web developer, front-end developer, JavaScript developer, portfolio, web applications, dynamic web apps, responsive web design",
+  authors: [
+    {
+      name: "Akash Moradiya",
+    },
+  ],
   openGraph: {
-    images: ["https://akash-portfolio-2024.vercel.app/og-image.png"],
+    images: ["https://www.akashmoradiya.com/og-image.png"],
+  },
+  twitter: {
+    card: "summary_large_image",
+    site: "@akash_3444",
+    creator: "@akash_3444",
+    title,
+    description,
   },
 };
 
