@@ -28,6 +28,46 @@ export const metadata: Metadata = {
     title,
     description,
   },
+  icons: [
+    {
+      url: "/favicon.ico",
+      type: "image/x-icon",
+    },
+    {
+      sizes: "16x16",
+      type: "image/png",
+      url: "/favicon-16x16.png",
+    },
+    {
+      sizes: "32x32",
+      type: "image/png",
+      url: "/favicon-32x32.png",
+    },
+    {
+      sizes: "192x192",
+      type: "image/png",
+      url: "/android-chrome-192x192.png",
+    },
+    {
+      sizes: "512x512",
+      type: "image/png",
+      url: "/android-chrome-512x512.png",
+    },
+    {
+      sizes: "180x180",
+      rel: "apple-touch-icon",
+      url: "/apple-touch-icon.png",
+    },
+    {
+      rel: "mask-icon",
+      url: "/safari-pinned-tab.svg",
+      color: "#ef4444",
+    },
+    {
+      rel: "manifest",
+      url: "/site.webmanifest",
+    },
+  ],
 };
 
 export default function RootLayout({
@@ -42,6 +82,8 @@ export default function RootLayout({
           name="google-site-verification"
           content="xqbQoq68oIz9cbsrLZP3hXQmLmG0QTIcxjb7qLEMb3Y"
         />
+        <meta name="msapplication-TileColor" content="#000000" />
+        <meta name="theme-color" content="#ffffff" />
       </head>
       <body className={epilogue.className}>{children}</body>
     </html>
