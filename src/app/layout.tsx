@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Epilogue } from "next/font/google";
 import "./globals.css";
+import { CSPostHogProvider } from "@/providers";
 
 const epilogue = Epilogue({ subsets: ["latin"] });
 
@@ -85,7 +86,9 @@ export default function RootLayout({
         <meta name="msapplication-TileColor" content="#000000" />
         <meta name="theme-color" content="#ffffff" />
       </head>
-      <body className={epilogue.className}>{children}</body>
+      <CSPostHogProvider>
+        <body className={epilogue.className}>{children}</body>
+      </CSPostHogProvider>
     </html>
   );
 }
