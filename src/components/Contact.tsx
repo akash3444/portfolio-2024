@@ -15,10 +15,7 @@ const Contact = () => {
         <h5 className="mt-4 text-3xl font-bold text-slate-950">
           I Help Companies Move Faster
         </h5>
-        <Link
-          href="https://www.upwork.com/freelancers/~018f16af62f6d209b4"
-          target="_blank"
-        >
+        <Link href="#contact">
           <Button variant="contained" className="mt-6">
             Hire Me
           </Button>
