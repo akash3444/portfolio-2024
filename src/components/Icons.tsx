@@ -22,70 +22,6 @@ export const MenuIcon: FC<ComponentProps<"svg">> = ({
   </svg>
 );
 
-export const PlusIcon: FC<ComponentProps<"svg">> = ({
-  className,
-  ...props
-}) => (
-  <svg
-    xmlns="http://www.w3.org/2000/svg"
-    viewBox="0 0 24 24"
-    fill="currentColor"
-    className={cn("h-6 w-6", className)}
-    {...props}
-  >
-    <path
-      fillRule="evenodd"
-      d="M12 3.75a.75.75 0 0 1 .75.75v6.75h6.75a.75.75 0 0 1 0 1.5h-6.75v6.75a.75.75 0 0 1-1.5 0v-6.75H4.5a.75.75 0 0 1 0-1.5h6.75V4.5a.75.75 0 0 1 .75-.75Z"
-      clipRule="evenodd"
-    />
-  </svg>
-);
-
-export const DesktopIcon: FC<ComponentProps<"svg">> = ({
-  className,
-  ...props
-}) => (
-  <svg
-    xmlns="http://www.w3.org/2000/svg"
-    width="24"
-    height="24"
-    viewBox="0 0 24 24"
-    fill="none"
-    stroke="currentColor"
-    strokeWidth="2"
-    strokeLinecap="round"
-    strokeLinejoin="round"
-    {...props}
-  >
-    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-    <path d="M3 5a1 1 0 0 1 1 -1h16a1 1 0 0 1 1 1v10a1 1 0 0 1 -1 1h-16a1 1 0 0 1 -1 -1v-10z" />
-    <path d="M7 20h10" />
-    <path d="M9 16v4" />
-    <path d="M15 16v4" />
-  </svg>
-);
-
-export const CheckIcon: FC<ComponentProps<"svg">> = ({
-  className,
-  ...props
-}) => (
-  <svg
-    xmlns="http://www.w3.org/2000/svg"
-    fill="none"
-    viewBox="0 0 24 24"
-    strokeWidth={1.5}
-    stroke="currentColor"
-    className={cn("h-6 w-6", className)}
-    {...props}
-  >
-    <path
-      strokeLinecap="round"
-      strokeLinejoin="round"
-      d="m4.5 12.75 6 6 9-13.5"
-    />
-  </svg>
-);
-
 export const MailIcon: FC<ComponentProps<"svg">> = ({
   className,
   ...props
@@ -193,26 +129,6 @@ export const ArrowUpRightIcon: FC<ComponentProps<"svg">> = (props) => (
     <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
     <polyline points="15 3 21 3 21 9"></polyline>
     <line x1="10" y1="14" x2="21" y2="3"></line>
-  </svg>
-);
-
-export const TerminalIcon: FC<ComponentProps<"svg">> = (props) => (
-  <svg
-    xmlns="http://www.w3.org/2000/svg"
-    width="24"
-    height="24"
-    viewBox="0 0 24 24"
-    fill="none"
-    stroke="currentColor"
-    strokeWidth="2"
-    strokeLinecap="round"
-    strokeLinejoin="round"
-    {...props}
-  >
-    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-    <path d="M8 9l3 3l-3 3" />
-    <path d="M13 15l3 0" />
-    <path d="M3 4m0 2a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2z" />
   </svg>
 );
 

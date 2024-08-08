@@ -2,12 +2,10 @@ import About from "@/components/About";
 import { HeroAbstract } from "@/components/Abstracts";
 import Contact from "@/components/Contact";
 import ContactMe from "@/components/ContactMe";
-import Features from "@/components/Features";
 import Footer from "@/components/Footer";
 import HelpBuildProject from "@/components/HelpBuildProject";
 import Navbar from "@/components/Navbar";
 import Projects from "@/components/Projects";
-import Services from "@/components/Services";
 import Subtitle from "@/components/Typography";
 import Button from "@/shared/Button";
 import Section from "@/shared/Section";
@@ -53,8 +51,6 @@ export default function Home() {
       <main>
         <About />
         <Projects />
-        <Services />
-        <Features />
         <Contact />
         <ContactMe />
         <HelpBuildProject />
