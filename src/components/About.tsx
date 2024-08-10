@@ -1,5 +1,5 @@
 import Section from "@/shared/Section";
-import { PhoneAndAccessories } from "./Abstracts";
+import { VersionControl } from "./Abstracts";
 import {
   NextIcon,
   NextUiIcon,
@@ -15,7 +15,7 @@ const About = () => {
   return (
     <Section id="about">
       <div className="flex flex-col gap-10 md:flex-row md:items-center md:gap-20">
-        <PhoneAndAccessories className="w-full shrink-0 md:w-1/2 md:md:max-w-lg" />
+        <VersionControl className="w-full shrink-0 md:w-1/2 md:md:max-w-lg" />
         <div>
           <Subtitle>Akash Moradiya</Subtitle>
           <h3 className="mt-6 text-4xl text-slate-950">

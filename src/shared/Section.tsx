@@ -17,7 +17,7 @@ const Section: FC<SectionProps> = ({
   return (
     <Component
       className={cn({
-        "bg-red-50": background === "light",
+        "bg-zinc-100": background === "light",
         "bg-slate-950": background === "dark",
         [background]: background !== "light" && background !== "dark",
       })}

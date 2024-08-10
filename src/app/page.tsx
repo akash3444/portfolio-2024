@@ -1,9 +1,7 @@
 import About from "@/components/About";
 import { HeroAbstract } from "@/components/Abstracts";
-import Contact from "@/components/Contact";
 import ContactMe from "@/components/ContactMe";
 import Footer from "@/components/Footer";
-import HelpBuildProject from "@/components/HelpBuildProject";
 import Navbar from "@/components/Navbar";
 import Projects from "@/components/Projects";
 import Subtitle from "@/components/Typography";
@@ -27,7 +25,7 @@ export default function Home() {
         >
           <Navbar />
           {/* Hero section */}
-          <div className="mt-24 items-center gap-20 md:flex lg:justify-between">
+          <div className="items-center gap-20 md:flex lg:mt-24 lg:justify-between">
             <HeroAbstract className="h-80 w-full lg:h-auto lg:max-w-md" />
             <div className="mt-8 md:max-w-xl">
               <Subtitle>Akash Moradiya</Subtitle>
@@ -51,9 +49,7 @@ export default function Home() {
       <main>
         <About />
         <Projects />
-        <Contact />
         <ContactMe />
-        <HelpBuildProject />
         <Footer />
       </main>
     </>
