@@ -1,4 +1,3 @@
-import Button from "@/shared/Button";
 import Section from "@/shared/Section";
 import Link from "next/link";
 import { FC, Fragment, SVGProps } from "react";
@@ -12,6 +11,7 @@ import {
   TypeScriptIcon,
 } from "./Icons";
 import Subtitle from "./Typography";
+import { Button } from "./ui/button";
 
 const projects = [
   {
@@ -100,7 +100,7 @@ const Projects = () => {
                 {description}
               </p>
               <Link href={url} target="_blank">
-                <Button variant="contained" className="mt-6">
+                <Button className="mt-6">
                   View Live
                   <ArrowUpRightIcon className="mb-1 h-5 w-5 align-top" />
                 </Button>

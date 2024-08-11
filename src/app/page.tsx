@@ -5,7 +5,7 @@ import Footer from "@/components/Footer";
 import Navbar from "@/components/Navbar";
 import Projects from "@/components/Projects";
 import Subtitle from "@/components/Typography";
-import Button from "@/shared/Button";
+import { Button } from "@/components/ui/button";
 import Section from "@/shared/Section";
 import Link from "next/link";
 
@@ -38,9 +38,7 @@ export default function Home() {
                 efficient, scalable, and user-friendly applications.
               </p>
               <Link href="#projects">
-                <Button className="mt-8" variant="contained">
-                  See My Work
-                </Button>
+                <Button className="mt-8">See My Work</Button>
               </Link>
             </div>
           </div>

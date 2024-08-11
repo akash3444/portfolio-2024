@@ -1,12 +1,12 @@
 "use client";
 
-import Button from "@/shared/Button";
 import Input from "@/shared/Input";
 import Textarea from "@/shared/Textarea";
 import { emailPattern } from "@/utils/validation";
 import emailjs from "@emailjs/browser";
 import { useEffect } from "react";
 import { SubmitHandler, useForm } from "react-hook-form";
+import { Button } from "./ui/button";
 
 interface FormValues {
   from: string;
@@ -75,12 +75,7 @@ const ContactForm = () => {
         {...register("message", { required: "This field is required" })}
         error={errors.message?.message}
       />
-      <Button
-        variant="contained"
-        fullWidth
-        type="submit"
-        disabled={isSubmitting}
-      >
+      <Button className="w-full" type="submit" disabled={isSubmitting}>
         {isSubmitting ? "Submitting..." : "Submit"}
       </Button>
     </form>
