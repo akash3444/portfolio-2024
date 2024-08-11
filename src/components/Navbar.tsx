@@ -23,16 +23,16 @@ const Navbar = () => {
       <Logo />
       <ul className="hidden items-center gap-12 md:flex">
         {navbarLinks.map(({ name, href }) => (
-          <li key={name} className="text-slate-300">
+          <li key={name} className="text-foreground">
             <Link href={href}>{name}</Link>
           </li>
         ))}
       </ul>
       {isMenuOpen && (
-        <div className="fixed inset-0 top-20 z-10 flex flex-col bg-slate-950 px-6 pb-8 pt-6 md:hidden">
+        <div className="bg-background fixed inset-0 top-20 z-10 flex flex-col px-6 pb-8 pt-6 md:hidden">
           <ul className="items-center gap-12 space-y-8 md:flex">
             {navbarLinks.map(({ name, href }) => (
-              <li key={name} className="text-lg text-slate-300">
+              <li key={name} className="text-foreground text-lg">
                 <Link href={href} className="block" onClick={toggleMenu}>
                   {name}
                 </Link>
@@ -41,13 +41,12 @@ const Navbar = () => {
           </ul>
           <div className="mt-auto">
             <Socials className="mb-8 justify-center" />
-
-            <Copyright className="mt-auto border-t border-slate-700 pt-8" />
+            <Copyright className="border-border mt-auto border-t pt-8" />
           </div>
         </div>
       )}
       <button
-        className="rounded border border-slate-600 p-1.5 md:hidden"
+        className="text-foreground border-border rounded border p-1.5 md:hidden"
         onClick={toggleMenu}
       >
         {isMenuOpen ? <CloseIcon /> : <MenuIcon />}

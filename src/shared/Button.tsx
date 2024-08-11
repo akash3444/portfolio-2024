@@ -3,11 +3,11 @@ import { cva, VariantProps } from "class-variance-authority";
 import { ComponentProps, FC } from "react";
 
 const buttonVariants = cva(
-  "inline-flex items-center justify-center gap-2 py-2.5 px-6 font-medium",
+  "inline-flex items-center justify-center gap-2 py-2.5 px-6 font-medium text-primary-foreground",
   {
     variants: {
       variant: {
-        contained: "rounded bg-red-500 hover:bg-red-600 transition-colors",
+        contained: "rounded bg-primary hover:bg-primary/85 transition-colors",
         default: "",
       },
     },

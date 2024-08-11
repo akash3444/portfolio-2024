@@ -69,7 +69,9 @@ const Projects = () => {
   return (
     <Section background="dark" id="projects">
       <Subtitle className="text-center">Portfolio</Subtitle>
-      <h3 className="mt-6 text-center text-4xl font-medium">Latest Work</h3>
+      <h3 className="text-foreground mt-6 text-center text-4xl font-extrabold">
+        Latest Work
+      </h3>
 
       <div className="mt-20 space-y-20">
         {projects.map(({ name, description, imageUrl, url, technologies }) => (
@@ -77,7 +79,7 @@ const Projects = () => {
             key={name}
             className="flex flex-col gap-8 md:flex-row md:items-start md:gap-14 md:even:flex-row-reverse"
           >
-            <div className="w-full grow rounded bg-slate-800 p-2">
+            <div className="bg-card text-card-foreground w-full grow rounded p-2">
               <img
                 src={imageUrl}
                 alt=""
@@ -93,8 +95,8 @@ const Projects = () => {
               </div>
             </div>
             <div className="shrink-0 md:w-1/2">
-              <h4 className="text-3xl font-medium text-slate-100">{name}</h4>
-              <p className="mt-4 text-[17px] leading-7 text-slate-300">
+              <h4 className="text-foreground text-3xl font-semibold">{name}</h4>
+              <p className="text-muted-foreground mt-4 text-[17px] leading-7">
                 {description}
               </p>
               <Link href={url} target="_blank">

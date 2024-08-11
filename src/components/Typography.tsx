@@ -8,7 +8,7 @@ export const Subtitle: FC<PropsWithChildren<ComponentProps<"h6">>> = ({
 }) => {
   return (
     <h6
-      className={cn("uppercase tracking-[3px] text-red-500", className)}
+      className={cn("text-primary uppercase tracking-[3px]", className)}
       {...props}
     >
       {children}

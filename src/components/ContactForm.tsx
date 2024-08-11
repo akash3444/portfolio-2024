@@ -46,9 +46,9 @@ const ContactForm = () => {
   return (
     <form
       onSubmit={handleSubmit(onSubmit)}
-      className="space-y-4 rounded-lg bg-white px-7 py-12"
+      className="bg-card text-card-foreground space-y-4 rounded-lg px-7 py-10"
     >
-      <h4 className="text-3xl font-bold text-slate-950">Get In Touch</h4>
+      <h4 className="text-3xl font-bold">Get In Touch</h4>
       <Input
         placeholder="Your Email"
         fullWidth

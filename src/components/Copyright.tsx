@@ -4,7 +4,10 @@ import { ComponentProps, FC } from "react";
 const Copyright: FC<ComponentProps<"p">> = ({ className, ...props }) => {
   return (
     <p
-      className={cn("text-center leading-loose text-slate-300", className)}
+      className={cn(
+        "text-muted-foreground text-center leading-loose",
+        className,
+      )}
       {...props}
     >
       Copyright &copy; {new Date().getFullYear()} Akash.

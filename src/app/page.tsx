@@ -29,10 +29,10 @@ export default function Home() {
             <HeroAbstract className="h-80 w-full lg:h-auto lg:max-w-md" />
             <div className="mt-8 md:max-w-xl">
               <Subtitle>Akash Moradiya</Subtitle>
-              <h1 className="mt-4 text-5xl font-bold leading-tight lg:text-6xl lg:leading-tight">
+              <h1 className="text-foreground mt-4 text-5xl font-bold leading-tight lg:text-6xl lg:leading-tight">
                 Crafting Engaging Web Experiences
               </h1>
-              <p className="mt-4 text-lg leading-7 text-slate-300">
+              <p className="text-muted-foreground mt-4 text-lg leading-7">
                 I&apos;m Akash Moradiya, a front-end engineer with 2.5+ years of
                 experience in React.js and Next.js. I specialize in creating
                 efficient, scalable, and user-friendly applications.

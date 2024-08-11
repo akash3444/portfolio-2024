@@ -18,10 +18,10 @@ const About = () => {
         <VersionControl className="w-full shrink-0 md:w-1/2 md:md:max-w-lg" />
         <div>
           <Subtitle>Akash Moradiya</Subtitle>
-          <h3 className="mt-6 text-4xl text-slate-950">
+          <h3 className="text-foreground mt-6 text-4xl">
             Professional Web Developer
           </h3>
-          <p className="mt-4 text-[17px] text-base leading-relaxed text-slate-600">
+          <p className="text-muted-foreground mt-4 text-[17px] text-base leading-relaxed">
             I excel at transforming wireframes into polished, responsive web
             interfaces, leveraging modern UI libraries such as Tailwind CSS and
             Shadcn UI. My expertise also includes integrating APIs to ensure
@@ -31,10 +31,10 @@ const About = () => {
           </p>
 
           <div className="mt-6">
-            <h6 className="mb-2 text-lg font-semibold text-slate-950">
+            <h6 className="text-foreground mb-2 text-lg font-semibold">
               My Tech Stack
             </h6>
-            <div className="flex items-center gap-4 text-red-500">
+            <div className="text-primary flex items-center gap-4">
               <ReactIcon />
               <NextIcon />
               <TypeScriptIcon />
@@ -47,22 +47,22 @@ const About = () => {
         </div>
       </div>
 
-      <div className="mt-14 grid grid-cols-1 divide-y divide-slate-300 rounded-lg border border-slate-300 md:grid-cols-3 md:divide-x md:divide-y-0">
+      <div className="divide-border border-border mt-14 grid grid-cols-1 divide-y rounded-lg border md:grid-cols-3 md:divide-x md:divide-y-0">
         <div className="px-7 py-12">
-          <h4 className="text-4xl text-slate-950">15+</h4>
-          <h5 className="mt-3 text-lg font-medium text-slate-700">
+          <h4 className="text-foreground text-4xl">15+</h4>
+          <h5 className="text-muted-foreground mt-3 text-lg font-medium">
             Project completed
           </h5>
         </div>
         <div className="px-7 py-12">
-          <h4 className="text-4xl text-slate-950">2.5+</h4>
-          <h5 className="mt-3 text-lg font-medium text-slate-700">
+          <h4 className="text-foreground text-4xl">2.5+</h4>
+          <h5 className="text-muted-foreground mt-3 text-lg font-medium">
             Years of experience
           </h5>
         </div>
         <div className="px-7 py-12">
-          <h4 className="text-4xl text-slate-950">100%</h4>
-          <h5 className="mt-3 text-lg font-medium text-slate-700">
+          <h4 className="text-foreground text-4xl">100%</h4>
+          <h5 className="text-muted-foreground mt-3 text-lg font-medium">
             Client satisfaction
           </h5>
         </div>
