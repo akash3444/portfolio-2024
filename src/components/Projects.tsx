@@ -69,7 +69,7 @@ const Projects = () => {
   return (
     <Section background="dark" id="projects">
       <Subtitle className="text-center">Portfolio</Subtitle>
-      <h3 className="mt-6 text-center text-4xl">Latest Work</h3>
+      <h3 className="mt-6 text-center text-4xl font-medium">Latest Work</h3>
 
       <div className="mt-20 space-y-20">
         {projects.map(({ name, description, imageUrl, url, technologies }) => (
@@ -93,8 +93,10 @@ const Projects = () => {
               </div>
             </div>
             <div className="shrink-0 md:w-1/2">
-              <h4 className="text-3xl font-bold">{name}</h4>
-              <p className="mt-4 leading-7 text-slate-300">{description}</p>
+              <h4 className="text-3xl font-medium text-slate-100">{name}</h4>
+              <p className="mt-4 text-[17px] leading-7 text-slate-300">
+                {description}
+              </p>
               <Link href={url} target="_blank">
                 <Button variant="contained" className="mt-6">
                   View Live

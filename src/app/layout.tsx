@@ -1,9 +1,9 @@
 import type { Metadata } from "next";
-import { Epilogue } from "next/font/google";
+import { Space_Grotesk } from "next/font/google";
 import "./globals.css";
 import { CSPostHogProvider } from "@/providers";
 
-const epilogue = Epilogue({ subsets: ["latin"] });
+const epilogue = Space_Grotesk({ subsets: ["latin"] });
 
 const title = "Akash Moradiya | React.js/Next.js Developer";
 const description =

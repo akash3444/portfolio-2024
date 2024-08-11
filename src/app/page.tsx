@@ -32,7 +32,7 @@ export default function Home() {
               <h1 className="mt-4 text-5xl font-bold leading-tight lg:text-6xl lg:leading-tight">
                 Crafting Engaging Web Experiences
               </h1>
-              <p className="mt-2 leading-7 text-slate-300">
+              <p className="mt-4 text-lg leading-7 text-slate-300">
                 I&apos;m Akash Moradiya, a front-end engineer with 2.5+ years of
                 experience in React.js and Next.js. I specialize in creating
                 efficient, scalable, and user-friendly applications.

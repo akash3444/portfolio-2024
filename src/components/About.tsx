@@ -19,9 +19,9 @@ const About = () => {
         <div>
           <Subtitle>Akash Moradiya</Subtitle>
           <h3 className="mt-6 text-4xl text-slate-950">
-            Professional Web Designer
+            Professional Web Developer
           </h3>
-          <p className="mt-4 text-slate-600">
+          <p className="mt-4 text-[17px] text-base leading-relaxed text-slate-600">
             I excel at transforming wireframes into polished, responsive web
             interfaces, leveraging modern UI libraries such as Tailwind CSS and
             Shadcn UI. My expertise also includes integrating APIs to ensure
