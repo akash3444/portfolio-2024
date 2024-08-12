@@ -4,10 +4,6 @@ export const navbarLinks = [
     href: "#about",
   },
   {
-    name: "Services",
-    href: "#services",
-  },
-  {
     name: "Projects",
     href: "#projects",
   },
