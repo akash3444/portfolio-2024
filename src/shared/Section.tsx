@@ -1,4 +1,4 @@
-import { cn } from "@/utils/lib";
+import { cn } from "@/lib/utils";
 import React, { ComponentProps, ElementType, FC, ReactNode } from "react";
 
 interface SectionProps extends ComponentProps<"section"> {
@@ -18,7 +18,7 @@ const Section: FC<SectionProps> = ({
     <Component
       className={cn({
         "bg-background": background === "light",
-        "bg-background dark": background === "dark",
+        "dark bg-background": background === "dark",
         [background]: background !== "light" && background !== "dark",
       })}
       {...props}

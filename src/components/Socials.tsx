@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { GithubIcon, LinkedInIcon, TwitterIcon } from "./Icons";
 import { ComponentProps, FC } from "react";
-import { cn } from "@/utils/lib";
+import { cn } from "@/lib/utils";
 
 const socialLinks = [
   {
@@ -23,7 +23,7 @@ const Socials: FC<ComponentProps<"div">> = ({ className, ...props }) => {
     <div className={cn("flex items-center gap-4", className)} {...props}>
       {socialLinks.map(({ href, icon: Icon }) => (
         <Link key={href} href={href} target="_blank">
-          <div className="bg-primary text-primary-foreground flex h-10 w-10 items-center justify-center rounded-full">
+          <div className="flex h-10 w-10 items-center justify-center rounded-full bg-primary text-primary-foreground">
             <Icon className="h-5 w-5" />
           </div>
         </Link>

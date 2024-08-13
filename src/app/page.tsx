@@ -17,8 +17,6 @@ export default function Home() {
           style={{ backgroundImage: "url(/grid-line.svg)" }}
           className="absolute inset-0"
         />
-        <div className="absolute -left-14 top-36 h-48 w-48 rounded-full bg-slate-800 blur-[74px]" />
-        <div className="absolute -right-10 bottom-0 h-36 w-36 rounded-full bg-blue-900 blur-[84px] md:h-48 md:w-48" />
         <Section
           background="dark"
           className="relative z-[1] pt-0 md:pt-0 lg:min-h-[100dvh]"

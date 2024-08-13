@@ -1,4 +1,4 @@
-import { cn } from "@/utils/lib";
+import { cn } from "@/lib/utils";
 import { ComponentProps, ForwardRefRenderFunction, forwardRef } from "react";
 
 interface TextareaProps extends ComponentProps<"textarea"> {
@@ -23,7 +23,7 @@ const Textarea: ForwardRefRenderFunction<HTMLTextAreaElement, TextareaProps> = (
         {...props}
       />
       {!!error && (
-        <span className="text-destructive mt-1.5 inline-block text-sm">
+        <span className="mt-1.5 inline-block text-sm text-destructive">
           {error}
         </span>
       )}

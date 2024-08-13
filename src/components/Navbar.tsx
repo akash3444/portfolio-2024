@@ -2,6 +2,7 @@ import { navbarLinks } from "@/description/navbar";
 import Logo from "@/shared/Logo";
 import dynamic from "next/dynamic";
 import Link from "next/link";
+import ThemeSelector from "./ThemeSelector";
 
 const MobileMenu = dynamic(() => import("./MobileMenu"), { ssr: false });
 
@@ -17,7 +18,10 @@ const Navbar = () => {
         ))}
       </ul>
 
-      <MobileMenu />
+      <div className="space-x-3">
+        <ThemeSelector />
+        <MobileMenu />
+      </div>
     </nav>
   );
 };
