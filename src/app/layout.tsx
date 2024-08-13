@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { Space_Grotesk } from "next/font/google";
 import "./globals.css";
-import { CSPostHogProvider } from "@/providers";
+import { CSPostHogProvider, ThemeProvider } from "@/providers";
 
 const epilogue = Space_Grotesk({ subsets: ["latin"] });
 
@@ -77,7 +77,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" suppressHydrationWarning>
       <head>
         <meta
           name="google-site-verification"
@@ -87,7 +87,9 @@ export default function RootLayout({
         <meta name="theme-color" content="#ffffff" />
       </head>
       <CSPostHogProvider>
-        <body className={epilogue.className}>{children}</body>
+        <body className={epilogue.className}>
+          <ThemeProvider>{children}</ThemeProvider>
+        </body>
       </CSPostHogProvider>
     </html>
   );

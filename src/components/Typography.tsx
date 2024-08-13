@@ -1,4 +1,4 @@
-import { cn } from "@/utils/lib";
+import { cn } from "@/lib/utils";
 import React, { ComponentProps, FC, PropsWithChildren } from "react";
 
 export const Subtitle: FC<PropsWithChildren<ComponentProps<"h6">>> = ({
@@ -8,7 +8,7 @@ export const Subtitle: FC<PropsWithChildren<ComponentProps<"h6">>> = ({
 }) => {
   return (
     <h6
-      className={cn("text-primary uppercase tracking-[3px]", className)}
+      className={cn("uppercase tracking-[3px] text-primary", className)}
       {...props}
     >
       {children}

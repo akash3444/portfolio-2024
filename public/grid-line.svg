@@ -5,7 +5,7 @@
   height="32"
   fill="none"
   stroke-width="2"
-  stroke="rgba(15, 23, 42, 0.3)"
+  stroke="rgba(15, 23, 42, 0.12)"
 >
   <path d="M0 .5H31.5V32" />
 </svg>

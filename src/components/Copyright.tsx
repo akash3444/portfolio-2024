@@ -1,11 +1,11 @@
-import { cn } from "@/utils/lib";
+import { cn } from "@/lib/utils";
 import { ComponentProps, FC } from "react";
 
 const Copyright: FC<ComponentProps<"p">> = ({ className, ...props }) => {
   return (
     <p
       className={cn(
-        "text-muted-foreground text-center leading-loose",
+        "text-center leading-loose text-muted-foreground",
         className,
       )}
       {...props}
