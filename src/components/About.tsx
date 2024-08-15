@@ -1,14 +1,6 @@
 import Section from "@/shared/Section";
 import { VersionControl } from "./Abstracts";
-import {
-  NextIcon,
-  NextUiIcon,
-  ReactIcon,
-  ReduxIcon,
-  ShadCnUiIcon,
-  TailwindIcon,
-  TypeScriptIcon,
-} from "./Icons";
+import TechStack from "./TechStack";
 import Subtitle from "./Typography";
 
 const About = () => {
@@ -32,17 +24,9 @@ const About = () => {
 
           <div className="mt-6">
             <h6 className="mb-2 text-lg font-semibold text-foreground">
-              My Tech Stack
+              My Preferred Tech Stack
             </h6>
-            <div className="flex items-center gap-4 text-primary">
-              <ReactIcon />
-              <NextIcon />
-              <TypeScriptIcon />
-              <TailwindIcon />
-              <ShadCnUiIcon />
-              <NextUiIcon />
-              <ReduxIcon />
-            </div>
+            <TechStack />
           </div>
         </div>
       </div>
