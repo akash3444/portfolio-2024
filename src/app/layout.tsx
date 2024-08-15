@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Space_Grotesk } from "next/font/google";
 import "./globals.css";
 import { CSPostHogProvider, ThemeProvider } from "@/providers";
+import { TooltipProvider } from "@/components/ui/tooltip";
 
 const epilogue = Space_Grotesk({ subsets: ["latin"] });
 
@@ -88,7 +89,9 @@ export default function RootLayout({
       </head>
       <CSPostHogProvider>
         <body className={epilogue.className}>
-          <ThemeProvider>{children}</ThemeProvider>
+          <ThemeProvider>
+            <TooltipProvider>{children}</TooltipProvider>
+          </ThemeProvider>
         </body>
       </CSPostHogProvider>
     </html>
