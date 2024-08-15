@@ -145,7 +145,6 @@ export const TailwindIcon: FC<ComponentProps<"svg">> = (props) => (
     strokeLinejoin="round"
     {...props}
   >
-    <title>Tailwind CSS</title>
     <path stroke="none" d="M0 0h24v24H0z" fill="none" />
     <path d="M11.667 6c-2.49 0 -4.044 1.222 -4.667 3.667c.933 -1.223 2.023 -1.68 3.267 -1.375c.71 .174 1.217 .68 1.778 1.24c.916 .912 2 1.968 4.288 1.968c2.49 0 4.044 -1.222 4.667 -3.667c-.933 1.223 -2.023 1.68 -3.267 1.375c-.71 -.174 -1.217 -.68 -1.778 -1.24c-.916 -.912 -1.975 -1.968 -4.288 -1.968zm-4 6.5c-2.49 0 -4.044 1.222 -4.667 3.667c.933 -1.223 2.023 -1.68 3.267 -1.375c.71 .174 1.217 .68 1.778 1.24c.916 .912 1.975 1.968 4.288 1.968c2.49 0 4.044 -1.222 4.667 -3.667c-.933 1.223 -2.023 1.68 -3.267 1.375c-.71 -.174 -1.217 -.68 -1.778 -1.24c-.916 -.912 -1.975 -1.968 -4.288 -1.968z" />
   </svg>
@@ -164,7 +163,6 @@ export const ReactIcon: FC<ComponentProps<"svg">> = (props) => (
     strokeLinejoin="round"
     {...props}
   >
-    <title>React.js</title>
     <path stroke="none" d="M0 0h24v24H0z" fill="none" />
     <path d="M6.306 8.711c-2.602 .723 -4.306 1.926 -4.306 3.289c0 2.21 4.477 4 10 4c.773 0 1.526 -.035 2.248 -.102" />
     <path d="M17.692 15.289c2.603 -.722 4.308 -1.926 4.308 -3.289c0 -2.21 -4.477 -4 -10 -4c-.773 0 -1.526 .035 -2.25 .102" />
@@ -188,7 +186,6 @@ export const NextIcon: FC<ComponentProps<"svg">> = (props) => (
     strokeLinejoin="round"
     {...props}
   >
-    <title>Next.js</title>
     <path stroke="none" d="M0 0h24v24H0z" fill="none" />
     <path d="M9 15v-6l7.745 10.65a9 9 0 1 1 2.255 -1.993" />
     <path d="M15 12v-3" />
@@ -208,7 +205,6 @@ export const ReduxIcon: FC<ComponentProps<"svg">> = (props) => (
     strokeLinejoin="round"
     {...props}
   >
-    <title>Redux</title>
     <path stroke="none" d="M0 0h24v24H0z" fill="none" />
     <path d="M16.54 7c-.805 -2.365 -2.536 -4 -4.54 -4c-2.774 0 -5.023 2.632 -5.023 6.496c0 1.956 1.582 4.727 2.512 6" />
     <path d="M4.711 11.979c-1.656 1.877 -2.214 4.185 -1.211 5.911c1.387 2.39 5.138 2.831 8.501 .9c1.703 -.979 2.875 -3.362 3.516 -4.798" />
@@ -232,7 +228,6 @@ export const TypeScriptIcon: FC<ComponentProps<"svg">> = (props) => (
     strokeLinejoin="round"
     {...props}
   >
-    <title>TypeScript</title>
     <path stroke="none" d="M0 0h24v24H0z" fill="none" />
     <path d="M15 17.5c.32 .32 .754 .5 1.207 .5h.543c.69 0 1.25 -.56 1.25 -1.25v-.25a1.5 1.5 0 0 0 -1.5 -1.5a1.5 1.5 0 0 1 -1.5 -1.5v-.25c0 -.69 .56 -1.25 1.25 -1.25h.543c.453 0 .887 .18 1.207 .5" />
     <path d="M9 12h4" />
@@ -248,7 +243,6 @@ export const ShadCnUiIcon: FC<ComponentProps<"svg">> = (props) => (
     className="h-6 w-6"
     {...props}
   >
-    <title>Shadcn UI</title>
     <rect width="256" height="256" fill="none"></rect>
     <line
       x1="208"
@@ -285,7 +279,6 @@ export const NextUiIcon: FC<ComponentProps<"svg">> = (props) => (
     className="h-5 w-5"
     {...props}
   >
-    <title>Next UI</title>
     <path
       d="M6.35294 1H17.6471C20.6034 1 23 3.39659 23 6.35294V17.6471C23 20.6034 20.6034 23 17.6471 23H6.35294C3.39659 23 1 20.6034 1 17.6471V6.35294C1 3.39659 3.39659 1 6.35294 1Z"
       stroke="currentColor"

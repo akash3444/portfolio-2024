@@ -7,17 +7,25 @@ import { useTheme } from "next-themes";
 import { CloseIcon, PaletteIcon } from "./Icons";
 import { Button } from "./ui/button";
 import { Popover, PopoverContent, PopoverTrigger } from "./ui/popover";
+import { Tooltip, TooltipContent, TooltipTrigger } from "./ui/tooltip";
 
 const ThemeSelector = () => {
   const { setTheme, theme } = useTheme();
 
   return (
     <Popover>
-      <PopoverTrigger asChild>
-        <Button variant="ghost" size="icon">
-          <PaletteIcon />
-        </Button>
-      </PopoverTrigger>
+      <Tooltip>
+        <TooltipTrigger asChild>
+          <PopoverTrigger asChild>
+            <Button variant="ghost" size="icon">
+              <PaletteIcon />
+            </Button>
+          </PopoverTrigger>
+        </TooltipTrigger>
+        <TooltipContent>
+          <p>Choose theme</p>
+        </TooltipContent>
+      </Tooltip>
       <PopoverContent className="dark">
         <div className="mb-4 flex items-center justify-between">
           <h6>Choose the theme</h6>
