@@ -2,6 +2,7 @@ import Link from "next/link";
 import { GithubIcon, LinkedInIcon, TwitterIcon } from "./Icons";
 import { ComponentProps, FC } from "react";
 import { cn } from "@/lib/utils";
+import { Button } from "./ui/button";
 
 const socialLinks = [
   {
@@ -22,11 +23,11 @@ const Socials: FC<ComponentProps<"div">> = ({ className, ...props }) => {
   return (
     <div className={cn("flex items-center gap-4", className)} {...props}>
       {socialLinks.map(({ href, icon: Icon }) => (
-        <Link key={href} href={href} target="_blank">
-          <div className="flex h-10 w-10 items-center justify-center rounded-full bg-primary text-primary-foreground">
+        <Button key={href} size="icon" asChild className="rounded-full">
+          <Link href={href} target="_blank">
             <Icon className="h-5 w-5" />
-          </div>
-        </Link>
+          </Link>
+        </Button>
       ))}
     </div>
   );

@@ -4,6 +4,7 @@ import ContactForm from "./ContactForm";
 import { MailIcon } from "./Icons";
 import Socials from "./Socials";
 import Subtitle from "./Typography";
+import { Button } from "./ui/button";
 
 const ContactMe = () => {
   return (
@@ -14,8 +15,8 @@ const ContactMe = () => {
       <ContactForm />
       <div className="text-foreground">
         <Subtitle>Contact</Subtitle>
-        <h3 className="text-foreground mt-4 text-4xl">Contact Me</h3>
-        <p className="text-muted-foreground mt-4">
+        <h3 className="mt-4 text-4xl text-foreground">Contact Me</h3>
+        <p className="mt-4 text-muted-foreground">
           Ready to kickstart your project or have questions? Let&apos;s chat!
           Reach out to discuss how I can help you achieve your web development
           goals.
@@ -26,15 +27,15 @@ const ContactMe = () => {
           className="mt-6 inline-block"
         >
           <div className="flex items-center gap-2">
-            <div className="bg-primary text-primary-foreground flex h-10 w-10 items-center justify-center rounded-full">
-              <MailIcon />
-            </div>
+            <Button size="icon" className="rounded-full">
+              <MailIcon className="h-5 w-5" />
+            </Button>
             <span>akashmoradiya3444@gmail.com</span>
           </div>
         </Link>
 
         <div className="mt-12">
-          <h6 className="text-foreground mb-4 text-xl font-semibold">
+          <h6 className="mb-4 text-xl font-semibold text-foreground">
             My Socials
           </h6>
           <Socials />
