@@ -998,3 +998,2260 @@ export const VersionControl: FC<ComponentProps<"svg">> = (props) => (
     </g>
   </svg>
 );
+
+export const Macbook: FC<ComponentProps<"svg">> = (props) => (
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600.399" {...props}>
+    <title>118-macbook</title>
+    <g style={{ isolation: "isolate" }}>
+      <rect width="600" height="600" className="fill-primary/5" />
+      <g style={{ opacity: "0.47000000000000003", mixBlendMode: "multiply" }}>
+        <path
+          d="M449.658,200.181l103-27.6a22.638,22.638,0,0,0,16.007-27.726v0a22.638,22.638,0,0,0-27.726-16.007L378.646,172.332a22.638,22.638,0,0,1-27.726-16.008v0A22.638,22.638,0,0,1,366.926,128.6L440.8,108.8A22.638,22.638,0,0,0,456.81,81.074v0a22.638,22.638,0,0,0-27.726-16.007L53.8,165.62a22.637,22.637,0,0,0-16.008,27.725v0A22.638,22.638,0,0,0,65.52,209.357L123.953,193.7a22.639,22.639,0,0,1,27.726,16.008v0a22.637,22.637,0,0,1-16.008,27.725l-100.02,26.8a22.639,22.639,0,0,0-16.008,27.726v0a22.638,22.638,0,0,0,27.726,16.008l62.42-16.726a22.639,22.639,0,0,1,27.726,16.008v0a22.637,22.637,0,0,1-16.008,27.725l-4.429,1.187A22.638,22.638,0,0,0,101.074,363.9v0A22.638,22.638,0,0,0,128.8,379.909l4.2-1.125a22.637,22.637,0,0,1,27.725,16.008h0a22.637,22.637,0,0,1-16.007,27.726L82.528,439.181a22.638,22.638,0,0,0-16.007,27.726v0a22.638,22.638,0,0,0,27.726,16.007l113.637-30.449a22.638,22.638,0,0,1,27.726,16.008h0A22.638,22.638,0,0,1,219.6,496.2l-18.212,4.879a22.639,22.639,0,0,0-16.007,27.726v0a22.637,22.637,0,0,0,27.726,16.007l289.35-77.531a22.638,22.638,0,0,0,16.007-27.726v0a22.638,22.638,0,0,0-27.726-16.008l-8.512,2.281A22.638,22.638,0,0,1,454.5,409.825h0A22.638,22.638,0,0,1,470.511,382.1l55.971-15a22.638,22.638,0,0,0,16.008-27.726v0a22.638,22.638,0,0,0-27.726-16.008L435.4,344.629a22.638,22.638,0,0,1-27.726-16.008h0A22.639,22.639,0,0,1,423.683,300.9l56.195-15.057a22.637,22.637,0,0,0,16.007-27.726v0A22.637,22.637,0,0,0,468.159,242.1l-6.781,1.817a22.638,22.638,0,0,1-27.726-16.007v0A22.638,22.638,0,0,1,449.658,200.181Z"
+          transform="translate(0 0)"
+          className="fill-primary/30"
+        />
+        <rect
+          x="521.468"
+          y="221.723"
+          width="51.443"
+          height="45.28"
+          rx="22.638"
+          transform="translate(-44.601 149.95) rotate(-15)"
+          className="fill-primary/30"
+        />
+      </g>
+      <g style={{ opacity: "0.33", mixBlendMode: "multiply" }}>
+        <rect
+          x="177.95"
+          y="261.845"
+          width="260"
+          height="45.478"
+          rx="14"
+          style={{
+            fill: "#4e4e4e",
+            stroke: "#000",
+            strokeLinecap: "round",
+            strokeLinejoin: "round",
+          }}
+        />
+        <rect
+          x="177.95"
+          y="261.845"
+          width="260"
+          height="45.478"
+          rx="14"
+          style={{ fill: "#4e4e4e" }}
+        />
+        <path
+          d="M191.95,261.845h232a14,14,0,0,1,14,14v20.438a8.549,8.549,0,0,1-8.549,8.549H186.5a8.549,8.549,0,0,1-8.549-8.549V275.845a14,14,0,0,1,14-14Z"
+          style={{ fill: "#4e4e4e", opacity: "0.17", mixBlendMode: "multiply" }}
+        />
+        <rect
+          x="177.95"
+          y="261.845"
+          width="260"
+          height="45.478"
+          rx="14"
+          style={{
+            fill: "#4e4e4e",
+            stroke: "#46505c",
+            strokeLinecap: "round",
+            strokeLinejoin: "round",
+            strokeWidth: "4px",
+          }}
+        />
+        <rect
+          x="290.48"
+          y="172.44"
+          width="34.941"
+          height="224"
+          transform="translate(592.39 -23.511) rotate(90)"
+          style={{ fill: "#4e4e4e" }}
+        />
+        <rect
+          x="290.48"
+          y="172.44"
+          width="34.941"
+          height="224"
+          transform="translate(592.39 -23.511) rotate(90)"
+          style={{
+            fill: "#4e4e4e",
+            stroke: "#46505c",
+            strokeLinecap: "round",
+            strokeLinejoin: "round",
+          }}
+        />
+        <rect
+          x="177.951"
+          y="307.323"
+          width="260"
+          height="172"
+          rx="14"
+          style={{ fill: "#4e4e4e" }}
+        />
+        <rect
+          x="225.95"
+          y="267.323"
+          width="164"
+          height="252"
+          rx="10"
+          transform="translate(701.274 85.373) rotate(90)"
+          style={{
+            fill: "#4e4e4e",
+            stroke: "#e6f3ff",
+            strokeMiterlimit: "10",
+            strokeWidth: "2px",
+          }}
+        />
+        <path
+          d="M291.9,471.5H324a4,4,0,0,1,4,4v3.82a0,0,0,0,1,0,0H287.9a0,0,0,0,1,0,0V475.5A4,4,0,0,1,291.9,471.5Z"
+          style={{ fill: "#4e4e4e" }}
+        />
+        <rect
+          x="177.951"
+          y="307.323"
+          width="260"
+          height="172"
+          rx="14"
+          style={{
+            fill: "#4e4e4e",
+            stroke: "#46505c",
+            strokeLinecap: "round",
+            strokeLinejoin: "round",
+            strokeWidth: "4px",
+          }}
+        />
+        <rect
+          x="192.95"
+          y="320.743"
+          width="230"
+          height="92"
+          rx="3"
+          style={{ fill: "#4e4e4e" }}
+        />
+        <rect
+          x="224.035"
+          y="390.243"
+          width="14"
+          height="14"
+          rx="1"
+          style={{
+            fill: "#4e4e4e",
+            stroke: "#626c84",
+            strokeLinecap: "round",
+            strokeLinejoin: "round",
+          }}
+        />
+        <rect
+          x="202.396"
+          y="390.243"
+          width="14"
+          height="14"
+          rx="1"
+          style={{
+            fill: "#4e4e4e",
+            stroke: "#626c84",
+            strokeLinecap: "round",
+            strokeLinejoin: "round",
+          }}
+        />
+        <rect
+          x="245.673"
+          y="390.243"
+          width="100.554"
+          height="14"
+          rx="1"
+          style={{
+            fill: "#4e4e4e",
+            stroke: "#626c84",
+            strokeLinecap: "round",
+            strokeLinejoin: "round",
+          }}
+        />
+        <rect
+          x="353.866"
+          y="390.243"
+          width="14"
+          height="14"
+          rx="1"
+          style={{
+            fill: "#4e4e4e",
+            stroke: "#626c84",
+            strokeLinecap: "round",
+            strokeLinejoin: "round",
+          }}
+        />
+        <rect
+          x="389.505"
+          y="398.118"
+          width="10"
+          height="6.125"
+          rx="1"
+          style={{
+            fill: "#4e4e4e",
+            stroke: "#626c84",
+            strokeLinecap: "round",
+            strokeLinejoin: "round",
+          }}
+        />
+        <rect
+          x="389.505"
+          y="390.243"
+          width="10"
+          height="6.125"
+          rx="1"
+          style={{
+            fill: "#4e4e4e",
+            stroke: "#626c84",
+            strokeLinecap: "round",
+            strokeLinejoin: "round",
+          }}
+        />
+        <rect
+          x="403.505"
+          y="398.118"
+          width="10"
+          height="6.125"
+          rx="1"
+          style={{
+            fill: "#4e4e4e",
+            stroke: "#626c84",
+            strokeLinecap: "round",
+            strokeLinejoin: "round",
+          }}
+        />
+        <rect
+          x="375.505"
+          y="398.118"
+          width="10"
+          height="6.125"
+          rx="1"
+          style={{
+            fill: "#4e4e4e",
+            stroke: "#626c84",
+            strokeLinecap: "round",
+            strokeLinejoin: "round",
+          }}
+        />
+        <rect
+          x="202.396"
+          y="370.323"
+          width="33.639"
+          height="14"
+          rx="1"
+          style={{
+            fill: "#4e4e4e",
+            stroke: "#626c84",
+            strokeLinecap: "round",
+            strokeLinejoin: "round",
+          }}
+        />
+        <rect
+          x="243.854"
+          y="370.323"
+          width="14"
+          height="14"
+          rx="1"
+          style={{
+            fill: "#4e4e4e",
+            stroke: "#626c84",
+            strokeLinecap: "round",
+            strokeLinejoin: "round",
+          }}
+        />
+        <rect
+          x="265.493"
+          y="370.323"
+          width="14"
+          height="14"
+          rx="1"
+          style={{
+            fill: "#4e4e4e",
+            stroke: "#626c84",
+            strokeLinecap: "round",
+            strokeLinejoin: "round",
+          }}
+        />
+        <rect
+          x="287.131"
+          y="370.323"
+          width="14"
+          height="14"
+          rx="1"
+          style={{
+            fill: "#4e4e4e",
+            stroke: "#626c84",
+            strokeLinecap: "round",
+            strokeLinejoin: "round",
+          }}
+        />
+        <rect
+          x="308.77"
+          y="370.323"
+          width="14"
+          height="14"
+          rx="1"
+          style={{
+            fill: "#4e4e4e",
+            stroke: "#626c84",
+            strokeLinecap: "round",
+            strokeLinejoin: "round",
+          }}
+        />
+        <rect
+          x="330.408"
+          y="370.323"
+          width="14"
+          height="14"
+          rx="1"
+          style={{
+            fill: "#4e4e4e",
+            stroke: "#626c84",
+            strokeLinecap: "round",
+            strokeLinejoin: "round",
+          }}
+        />
+        <rect
+          x="352.047"
+          y="370.323"
+          width="14"
+          height="14"
+          rx="1"
+          style={{
+            fill: "#4e4e4e",
+            stroke: "#626c84",
+            strokeLinecap: "round",
+            strokeLinejoin: "round",
+          }}
+        />
+        <rect
+          x="375.505"
+          y="370.323"
+          width="38"
+          height="14"
+          rx="1"
+          style={{
+            fill: "#4e4e4e",
+            stroke: "#626c84",
+            strokeLinecap: "round",
+            strokeLinejoin: "round",
+          }}
+        />
+        <rect
+          x="236.035"
+          y="349.843"
+          width="14"
+          height="14"
+          rx="1"
+          style={{
+            fill: "#4e4e4e",
+            stroke: "#626c84",
+            strokeLinecap: "round",
+            strokeLinejoin: "round",
+          }}
+        />
+        <rect
+          x="202.396"
+          y="349.843"
+          width="26"
+          height="14"
+          rx="1"
+          style={{
+            fill: "#4e4e4e",
+            stroke: "#626c84",
+            strokeLinecap: "round",
+            strokeLinejoin: "round",
+          }}
+        />
+        <rect
+          x="257.673"
+          y="349.843"
+          width="14"
+          height="14"
+          rx="1"
+          style={{
+            fill: "#4e4e4e",
+            stroke: "#626c84",
+            strokeLinecap: "round",
+            strokeLinejoin: "round",
+          }}
+        />
+        <rect
+          x="279.312"
+          y="349.843"
+          width="14"
+          height="14"
+          rx="1"
+          style={{
+            fill: "#4e4e4e",
+            stroke: "#626c84",
+            strokeLinecap: "round",
+            strokeLinejoin: "round",
+          }}
+        />
+        <rect
+          x="300.95"
+          y="349.843"
+          width="14"
+          height="14"
+          rx="1"
+          style={{
+            fill: "#4e4e4e",
+            stroke: "#626c84",
+            strokeLinecap: "round",
+            strokeLinejoin: "round",
+          }}
+        />
+        <rect
+          x="322.589"
+          y="349.843"
+          width="14"
+          height="14"
+          rx="1"
+          style={{
+            fill: "#4e4e4e",
+            stroke: "#626c84",
+            strokeLinecap: "round",
+            strokeLinejoin: "round",
+          }}
+        />
+        <rect
+          x="344.228"
+          y="349.843"
+          width="14"
+          height="14"
+          rx="1"
+          style={{
+            fill: "#4e4e4e",
+            stroke: "#626c84",
+            strokeLinecap: "round",
+            strokeLinejoin: "round",
+          }}
+        />
+        <rect
+          x="365.866"
+          y="349.843"
+          width="14"
+          height="14"
+          rx="1"
+          style={{
+            fill: "#4e4e4e",
+            stroke: "#626c84",
+            strokeLinecap: "round",
+            strokeLinejoin: "round",
+          }}
+        />
+        <rect
+          x="387.505"
+          y="349.843"
+          width="26"
+          height="14"
+          rx="1"
+          style={{
+            fill: "#4e4e4e",
+            stroke: "#626c84",
+            strokeLinecap: "round",
+            strokeLinejoin: "round",
+          }}
+        />
+        <rect
+          x="224.297"
+          y="330.243"
+          width="14"
+          height="14"
+          rx="1"
+          style={{
+            fill: "#4e4e4e",
+            stroke: "#626c84",
+            strokeLinecap: "round",
+            strokeLinejoin: "round",
+          }}
+        />
+        <rect
+          x="202.396"
+          y="330.243"
+          width="14"
+          height="14"
+          rx="1"
+          style={{
+            fill: "#4e4e4e",
+            stroke: "#626c84",
+            strokeLinecap: "round",
+            strokeLinejoin: "round",
+          }}
+        />
+        <rect
+          x="246.198"
+          y="330.243"
+          width="14"
+          height="14"
+          rx="1"
+          style={{
+            fill: "#4e4e4e",
+            stroke: "#626c84",
+            strokeLinecap: "round",
+            strokeLinejoin: "round",
+          }}
+        />
+        <rect
+          x="268.099"
+          y="330.243"
+          width="14"
+          height="14"
+          rx="1"
+          style={{
+            fill: "#4e4e4e",
+            stroke: "#626c84",
+            strokeLinecap: "round",
+            strokeLinejoin: "round",
+          }}
+        />
+        <rect
+          x="290"
+          y="330.243"
+          width="14"
+          height="14"
+          rx="1"
+          style={{
+            fill: "#4e4e4e",
+            stroke: "#626c84",
+            strokeLinecap: "round",
+            strokeLinejoin: "round",
+          }}
+        />
+        <rect
+          x="311.901"
+          y="330.243"
+          width="14"
+          height="14"
+          rx="1"
+          style={{
+            fill: "#4e4e4e",
+            stroke: "#626c84",
+            strokeLinecap: "round",
+            strokeLinejoin: "round",
+          }}
+        />
+        <rect
+          x="333.802"
+          y="330.243"
+          width="14"
+          height="14"
+          rx="1"
+          style={{
+            fill: "#4e4e4e",
+            stroke: "#626c84",
+            strokeLinecap: "round",
+            strokeLinejoin: "round",
+          }}
+        />
+        <rect
+          x="355.703"
+          y="330.243"
+          width="14"
+          height="14"
+          rx="1"
+          style={{
+            fill: "#4e4e4e",
+            stroke: "#626c84",
+            strokeLinecap: "round",
+            strokeLinejoin: "round",
+          }}
+        />
+        <rect
+          x="377.604"
+          y="330.243"
+          width="14"
+          height="14"
+          rx="1"
+          style={{
+            fill: "#4e4e4e",
+            stroke: "#626c84",
+            strokeLinecap: "round",
+            strokeLinejoin: "round",
+          }}
+        />
+        <rect
+          x="399.505"
+          y="330.243"
+          width="14"
+          height="14"
+          rx="1"
+          style={{
+            fill: "#4e4e4e",
+            stroke: "#626c84",
+            strokeLinecap: "round",
+            strokeLinejoin: "round",
+          }}
+        />
+        <rect
+          x="224.035"
+          y="390.243"
+          width="14"
+          height="14"
+          rx="1"
+          style={{ fill: "#4e4e4e" }}
+        />
+        <rect
+          x="202.396"
+          y="390.243"
+          width="14"
+          height="14"
+          rx="1"
+          style={{ fill: "#4e4e4e" }}
+        />
+        <rect
+          x="245.673"
+          y="390.243"
+          width="100.554"
+          height="14"
+          rx="1"
+          style={{ fill: "#4e4e4e" }}
+        />
+        <rect
+          x="353.866"
+          y="390.243"
+          width="14"
+          height="14"
+          rx="1"
+          style={{ fill: "#4e4e4e" }}
+        />
+        <rect
+          x="389.505"
+          y="398.118"
+          width="10"
+          height="6.125"
+          rx="1"
+          style={{ fill: "#4e4e4e" }}
+        />
+        <rect
+          x="389.505"
+          y="390.243"
+          width="10"
+          height="6.125"
+          rx="1"
+          style={{ fill: "#4e4e4e" }}
+        />
+        <rect
+          x="403.505"
+          y="398.118"
+          width="10"
+          height="6.125"
+          rx="1"
+          style={{ fill: "#4e4e4e" }}
+        />
+        <rect
+          x="375.505"
+          y="398.118"
+          width="10"
+          height="6.125"
+          rx="1"
+          style={{ fill: "#4e4e4e" }}
+        />
+        <rect
+          x="202.396"
+          y="370.323"
+          width="33.639"
+          height="14"
+          rx="1"
+          style={{ fill: "#4e4e4e" }}
+        />
+        <rect
+          x="243.854"
+          y="370.323"
+          width="14"
+          height="14"
+          rx="1"
+          style={{ fill: "#4e4e4e" }}
+        />
+        <rect
+          x="265.493"
+          y="370.323"
+          width="14"
+          height="14"
+          rx="1"
+          style={{ fill: "#4e4e4e" }}
+        />
+        <rect
+          x="287.131"
+          y="370.323"
+          width="14"
+          height="14"
+          rx="1"
+          style={{ fill: "#4e4e4e" }}
+        />
+        <rect
+          x="308.77"
+          y="370.323"
+          width="14"
+          height="14"
+          rx="1"
+          style={{ fill: "#4e4e4e" }}
+        />
+        <rect
+          x="330.408"
+          y="370.323"
+          width="14"
+          height="14"
+          rx="1"
+          style={{ fill: "#4e4e4e" }}
+        />
+        <rect
+          x="352.047"
+          y="370.323"
+          width="14"
+          height="14"
+          rx="1"
+          style={{ fill: "#4e4e4e" }}
+        />
+        <rect
+          x="375.505"
+          y="370.323"
+          width="38"
+          height="14"
+          rx="1"
+          style={{ fill: "#4e4e4e" }}
+        />
+        <rect
+          x="236.035"
+          y="349.843"
+          width="14"
+          height="14"
+          rx="1"
+          style={{ fill: "#4e4e4e" }}
+        />
+        <rect
+          x="202.396"
+          y="349.843"
+          width="26"
+          height="14"
+          rx="1"
+          style={{ fill: "#4e4e4e" }}
+        />
+        <rect
+          x="257.673"
+          y="349.843"
+          width="14"
+          height="14"
+          rx="1"
+          style={{ fill: "#4e4e4e" }}
+        />
+        <rect
+          x="279.312"
+          y="349.843"
+          width="14"
+          height="14"
+          rx="1"
+          style={{ fill: "#4e4e4e" }}
+        />
+        <rect
+          x="300.95"
+          y="349.843"
+          width="14"
+          height="14"
+          rx="1"
+          style={{ fill: "#4e4e4e" }}
+        />
+        <rect
+          x="322.589"
+          y="349.843"
+          width="14"
+          height="14"
+          rx="1"
+          style={{ fill: "#4e4e4e" }}
+        />
+        <rect
+          x="344.228"
+          y="349.843"
+          width="14"
+          height="14"
+          rx="1"
+          style={{ fill: "#4e4e4e" }}
+        />
+        <rect
+          x="365.866"
+          y="349.843"
+          width="14"
+          height="14"
+          rx="1"
+          style={{ fill: "#4e4e4e" }}
+        />
+        <rect
+          x="387.505"
+          y="349.843"
+          width="26"
+          height="14"
+          rx="1"
+          style={{ fill: "#4e4e4e" }}
+        />
+        <rect
+          x="224.297"
+          y="330.243"
+          width="14"
+          height="14"
+          rx="1"
+          style={{ fill: "#4e4e4e" }}
+        />
+        <rect
+          x="202.396"
+          y="330.243"
+          width="14"
+          height="14"
+          rx="1"
+          style={{ fill: "#4e4e4e" }}
+        />
+        <rect
+          x="246.198"
+          y="330.243"
+          width="14"
+          height="14"
+          rx="1"
+          style={{ fill: "#4e4e4e" }}
+        />
+        <rect
+          x="268.099"
+          y="330.243"
+          width="14"
+          height="14"
+          rx="1"
+          style={{ fill: "#4e4e4e" }}
+        />
+        <rect
+          x="290"
+          y="330.243"
+          width="14"
+          height="14"
+          rx="1"
+          style={{ fill: "#4e4e4e" }}
+        />
+        <rect
+          x="311.901"
+          y="330.243"
+          width="14"
+          height="14"
+          rx="1"
+          style={{ fill: "#4e4e4e" }}
+        />
+        <rect
+          x="333.802"
+          y="330.243"
+          width="14"
+          height="14"
+          rx="1"
+          style={{ fill: "#4e4e4e" }}
+        />
+        <rect
+          x="355.703"
+          y="330.243"
+          width="14"
+          height="14"
+          rx="1"
+          style={{ fill: "#4e4e4e" }}
+        />
+        <rect
+          x="377.604"
+          y="330.243"
+          width="14"
+          height="14"
+          rx="1"
+          style={{ fill: "#4e4e4e" }}
+        />
+        <rect
+          x="399.505"
+          y="330.243"
+          width="14"
+          height="14"
+          rx="1"
+          style={{ fill: "#4e4e4e" }}
+        />
+        <path
+          d="M222.95,298.339h170a0,0,0,0,1,0,0v13.446a4,4,0,0,1-4,4h-162a4,4,0,0,1-4-4V298.339A0,0,0,0,1,222.95,298.339Z"
+          style={{ fill: "#4e4e4e" }}
+        />
+        <path
+          d="M388.95,311.784h-162a4,4,0,0,1-4-4v4a4,4,0,0,0,4,4h162a4,4,0,0,0,4-4v-4A4,4,0,0,1,388.95,311.784Z"
+          transform="translate(0 0)"
+          style={{ fill: "#4e4e4e", opacity: "0.25", mixBlendMode: "multiply" }}
+        />
+        <path
+          d="M222.95,298.339h170a0,0,0,0,1,0,0v13.446a4,4,0,0,1-4,4h-162a4,4,0,0,1-4-4V298.339A0,0,0,0,1,222.95,298.339Z"
+          style={{
+            fill: "#4e4e4e",
+            stroke: "#46505c",
+            strokeLinecap: "round",
+            strokeLinejoin: "round",
+            strokeWidth: "2px",
+          }}
+        />
+        <rect
+          x="270.951"
+          y="417.743"
+          width="74"
+          height="51"
+          rx="2"
+          style={{ fill: "#4e4e4e" }}
+        />
+        <rect
+          x="270.951"
+          y="417.743"
+          width="74"
+          height="51"
+          rx="2"
+          style={{
+            fill: "#4e4e4e",
+            stroke: "#626c84",
+            strokeLinecap: "round",
+            strokeLinejoin: "round",
+          }}
+        />
+      </g>
+      <g style={{ opacity: "0.33", mixBlendMode: "multiply" }}>
+        <path
+          d="M90.15,401.363h13.466a.692.692,0,0,1,.692.692v9.616a.692.692,0,0,1-.692.692H90.15a5,5,0,0,1-5-5v-1A5,5,0,0,1,90.15,401.363Z"
+          transform="matrix(0.573, -0.819, 0.819, 0.573, -292.917, 251.165)"
+          style={{
+            fill: "#4e4e4e",
+            stroke: "#46505c",
+            strokeLinecap: "round",
+            strokeLinejoin: "round",
+            strokeWidth: "4px",
+          }}
+        />
+        <path
+          d="M90.15,401.363h13.466a.692.692,0,0,1,.692.692v9.616a.692.692,0,0,1-.692.692H90.15a5,5,0,0,1-5-5v-1A5,5,0,0,1,90.15,401.363Z"
+          transform="matrix(0.573, -0.819, 0.819, 0.573, -292.917, 251.165)"
+          style={{
+            fill: "#4e4e4e",
+            stroke: "#46505c",
+            strokeLinecap: "round",
+            strokeLinejoin: "round",
+            strokeWidth: "4px",
+          }}
+        />
+        <circle
+          cx="117.084"
+          cy="374.922"
+          r="32.576"
+          style={{
+            fill: "#4e4e4e",
+            stroke: "#46505c",
+            strokeLinecap: "round",
+            strokeLinejoin: "round",
+            strokeWidth: "4px",
+          }}
+        />
+        <circle
+          cx="117.084"
+          cy="374.922"
+          r="32.576"
+          style={{
+            fill: "#4e4e4e",
+            stroke: "#46505c",
+            strokeLinecap: "round",
+            strokeLinejoin: "round",
+            strokeWidth: "4px",
+          }}
+        />
+        <circle
+          cx="117.084"
+          cy="374.922"
+          r="25.355"
+          style={{
+            fill: "#4e4e4e",
+            stroke: "#46505c",
+            strokeLinecap: "round",
+            strokeLinejoin: "round",
+            strokeWidth: "4px",
+          }}
+        />
+        <circle
+          cx="117.084"
+          cy="374.922"
+          r="25.355"
+          style={{
+            fill: "#4e4e4e",
+            stroke: "#46505c",
+            strokeLinecap: "round",
+            strokeLinejoin: "round",
+            strokeWidth: "4px",
+          }}
+        />
+        <path
+          d="M100.509,369.659c.339-.764.706-1.513,1.08-2.246,1.7-3.332,3.733-6.786,6.978-8.827,2.755-1.734,6.608-2.413,9.594-.879,2.59,1.33,4.151,4.065,6.514,5.767a42.738,42.738,0,0,0,4.954,2.605A7.44,7.44,0,0,1,133.442,370c.8,2.444-.519,5.052-.532,7.624a7.58,7.58,0,0,0,1.137,4.017,3.909,3.909,0,0,1,.875,1.979,2.6,2.6,0,0,1-1.715,2.06c-2.626,1.241-5.693.793-8.581.481s-6.086-.378-8.369,1.418a24.329,24.329,0,0,0-2.589,2.792,4.072,4.072,0,0,1-6.25.637,26.771,26.771,0,0,1-5.326-6.041,16.421,16.421,0,0,1-3.173-6.557C98.4,375.435,99.265,372.458,100.509,369.659Z"
+          transform="translate(0 0)"
+          style={{
+            fill: "#4e4e4e",
+            stroke: "#46505c",
+            strokeLinecap: "round",
+            strokeLinejoin: "round",
+            strokeWidth: "4px",
+            opacity: "0.33",
+            mixBlendMode: "multiply",
+          }}
+        />
+        <circle
+          cx="122.212"
+          cy="392.543"
+          r="1.574"
+          style={{
+            fill: "#4e4e4e",
+            stroke: "#46505c",
+            strokeLinecap: "round",
+            strokeLinejoin: "round",
+            strokeWidth: "4px",
+            opacity: "0.33",
+            mixBlendMode: "multiply",
+          }}
+        />
+        <circle
+          cx="118.115"
+          cy="393.124"
+          r="1.09"
+          style={{
+            fill: "#4e4e4e",
+            stroke: "#46505c",
+            strokeLinecap: "round",
+            strokeLinejoin: "round",
+            strokeWidth: "4px",
+            opacity: "0.33",
+            mixBlendMode: "multiply",
+          }}
+        />
+        <circle
+          cx="125.931"
+          cy="391.079"
+          r="0.988"
+          style={{
+            fill: "#4e4e4e",
+            stroke: "#46505c",
+            strokeLinecap: "round",
+            strokeLinejoin: "round",
+            strokeWidth: "4px",
+            opacity: "0.33",
+            mixBlendMode: "multiply",
+          }}
+        />
+        <circle
+          cx="114.667"
+          cy="393.532"
+          r="0.708"
+          style={{
+            fill: "#4e4e4e",
+            stroke: "#46505c",
+            strokeLinecap: "round",
+            strokeLinejoin: "round",
+            strokeWidth: "4px",
+            opacity: "0.33",
+            mixBlendMode: "multiply",
+          }}
+        />
+        <circle
+          cx="129.052"
+          cy="390.035"
+          r="0.432"
+          style={{
+            fill: "#4e4e4e",
+            stroke: "#46505c",
+            strokeLinecap: "round",
+            strokeLinejoin: "round",
+            strokeWidth: "4px",
+            opacity: "0.33",
+            mixBlendMode: "multiply",
+          }}
+        />
+        <circle
+          cx="97.409"
+          cy="368.931"
+          r="1.014"
+          style={{
+            fill: "#4e4e4e",
+            stroke: "#46505c",
+            strokeLinecap: "round",
+            strokeLinejoin: "round",
+            strokeWidth: "4px",
+            opacity: "0.33",
+            mixBlendMode: "multiply",
+          }}
+        />
+        <circle
+          cx="125.014"
+          cy="357.133"
+          r="0.954"
+          style={{
+            fill: "#4e4e4e",
+            stroke: "#46505c",
+            strokeLinecap: "round",
+            strokeLinejoin: "round",
+            strokeWidth: "4px",
+            opacity: "0.33",
+            mixBlendMode: "multiply",
+          }}
+        />
+        <circle
+          cx="131.215"
+          cy="361.833"
+          r="0.864"
+          style={{
+            fill: "#4e4e4e",
+            stroke: "#46505c",
+            strokeLinecap: "round",
+            strokeLinejoin: "round",
+            strokeWidth: "4px",
+            opacity: "0.33",
+            mixBlendMode: "multiply",
+          }}
+        />
+        <circle
+          cx="131.924"
+          cy="364.281"
+          r="0.378"
+          style={{
+            fill: "#4e4e4e",
+            stroke: "#46505c",
+            strokeLinecap: "round",
+            strokeLinejoin: "round",
+            strokeWidth: "4px",
+            opacity: "0.33",
+            mixBlendMode: "multiply",
+          }}
+        />
+      </g>
+      <path
+        d="M82.928,393.186H96.393a.692.692,0,0,1,.692.692v9.616a.692.692,0,0,1-.692.692H82.928a5,5,0,0,1-5-5v-1a5,5,0,0,1,5-5Z"
+        transform="translate(-289.299 241.76) rotate(-55.011)"
+        style={{
+          fill: "#fff",
+          stroke: "#e6f3ff",
+          strokeMiterlimit: "10",
+          strokeWidth: "2px",
+        }}
+      />
+      <path
+        d="M89.06,388.081a.692.692,0,0,0-.963.171l-3.477,4.966a36.623,36.623,0,0,0,4.269,3.494,37.022,37.022,0,0,0,4.742,2.815l3.477-4.968a.69.69,0,0,0-.17-.963Z"
+        transform="translate(0 0)"
+        style={{
+          fill: "#4e4e4e",
+          stroke: "#46505c",
+          strokeLinecap: "round",
+          strokeLinejoin: "round",
+          strokeWidth: "4px",
+          opacity: "0.18",
+        }}
+      />
+      <path
+        d="M82.928,393.186H96.393a.692.692,0,0,1,.692.692v9.616a.692.692,0,0,1-.692.692H82.928a5,5,0,0,1-5-5v-1a5,5,0,0,1,5-5Z"
+        transform="translate(-289.299 241.76) rotate(-55.011)"
+        style={{
+          fill: "none",
+          stroke: "#46505c",
+          strokeLinecap: "round",
+          strokeLinejoin: "round",
+          strokeWidth: "4px",
+        }}
+      />
+      <circle
+        cx="109.862"
+        cy="366.746"
+        r="32.576"
+        style={{
+          fill: "#fff",
+          stroke: "#e6f3ff",
+          strokeMiterlimit: "10",
+          strokeWidth: "2px",
+        }}
+      />
+      <circle
+        cx="109.862"
+        cy="366.746"
+        r="32.576"
+        style={{
+          fill: "none",
+          stroke: "#46505c",
+          strokeLinecap: "round",
+          strokeLinejoin: "round",
+          strokeWidth: "4px",
+        }}
+      />
+      <circle
+        cx="109.862"
+        cy="366.746"
+        r="25.355"
+        style={{ fill: "#845b5b" }}
+      />
+      <circle
+        cx="109.862"
+        cy="366.746"
+        r="25.355"
+        style={{
+          fill: "none",
+          stroke: "#46505c",
+          strokeLinecap: "round",
+          strokeLinejoin: "round",
+          strokeWidth: "2px",
+        }}
+      />
+      <path
+        d="M93.287,361.482c.339-.763.706-1.513,1.08-2.246,1.7-3.331,3.734-6.785,6.978-8.827,2.756-1.734,6.608-2.412,9.594-.879,2.59,1.33,4.151,4.066,6.514,5.767a42.752,42.752,0,0,0,4.955,2.6,7.447,7.447,0,0,1,3.813,3.918c.8,2.445-.519,5.053-.533,7.624a7.58,7.58,0,0,0,1.137,4.017,3.91,3.91,0,0,1,.876,1.979,2.6,2.6,0,0,1-1.715,2.061c-2.627,1.24-5.694.793-8.582.48s-6.085-.377-8.369,1.418a24.412,24.412,0,0,0-2.589,2.792,4.073,4.073,0,0,1-6.25.638,26.8,26.8,0,0,1-5.326-6.042A16.409,16.409,0,0,1,91.7,370.23C91.173,367.258,92.044,364.281,93.287,361.482Z"
+        transform="translate(0 0)"
+        style={{ fill: "#845b5b", opacity: "0.33", mixBlendMode: "multiply" }}
+      />
+      <circle
+        cx="114.99"
+        cy="384.366"
+        r="1.574"
+        style={{ fill: "#845b5b", opacity: "0.33", mixBlendMode: "multiply" }}
+      />
+      <circle
+        cx="110.893"
+        cy="384.947"
+        r="1.09"
+        style={{ fill: "#845b5b", opacity: "0.33", mixBlendMode: "multiply" }}
+      />
+      <circle
+        cx="118.709"
+        cy="382.903"
+        r="0.988"
+        style={{ fill: "#845b5b", opacity: "0.33", mixBlendMode: "multiply" }}
+      />
+      <circle
+        cx="107.445"
+        cy="385.356"
+        r="0.708"
+        style={{ fill: "#845b5b", opacity: "0.33", mixBlendMode: "multiply" }}
+      />
+      <circle
+        cx="121.83"
+        cy="381.859"
+        r="0.432"
+        style={{ fill: "#845b5b", opacity: "0.33", mixBlendMode: "multiply" }}
+      />
+      <circle
+        cx="90.187"
+        cy="360.755"
+        r="1.014"
+        style={{ fill: "#845b5b", opacity: "0.33", mixBlendMode: "multiply" }}
+      />
+      <circle
+        cx="117.792"
+        cy="348.956"
+        r="0.954"
+        style={{ fill: "#845b5b", opacity: "0.33", mixBlendMode: "multiply" }}
+      />
+      <circle
+        cx="123.993"
+        cy="353.656"
+        r="0.864"
+        style={{ fill: "#845b5b", opacity: "0.33", mixBlendMode: "multiply" }}
+      />
+      <circle
+        cx="124.702"
+        cy="356.104"
+        r="0.378"
+        style={{ fill: "#845b5b", opacity: "0.33", mixBlendMode: "multiply" }}
+      />
+      <circle cx="112.084" cy="368.84" r="2" style={{ fill: "#845b5b" }} />
+      <circle cx="105.57" cy="361.159" r="3.5" style={{ fill: "#845b5b" }} />
+      <rect
+        x="170"
+        y="133.904"
+        width="260"
+        height="164"
+        rx="14"
+        style={{
+          fill: "none",
+          stroke: "#000",
+          strokeLinecap: "round",
+          strokeLinejoin: "round",
+        }}
+      />
+      <rect
+        x="170"
+        y="133.904"
+        width="260"
+        height="164"
+        rx="14"
+        style={{ fill: "#626c84" }}
+      />
+      <rect
+        x="170"
+        y="133.904"
+        width="260"
+        height="164"
+        rx="14"
+        style={{ fill: "#626c84" }}
+      />
+      <rect
+        x="170"
+        y="133.904"
+        width="260"
+        height="155.016"
+        rx="14"
+        style={{ fill: "#626c84", opacity: "0.17", mixBlendMode: "multiply" }}
+      />
+      <path
+        d="M184,137.9H416a14,14,0,0,1,14,14v132h0v-136a14,14,0,0,0-14-14H184a14,14,0,0,0-14,14v4A14,14,0,0,1,184,137.9Z"
+        transform="translate(0 0)"
+        style={{ fill: "#fff", opacity: "0.1" }}
+      />
+      <g style={{ opacity: "0.1" }}>
+        <polygon
+          points="249.227 297.904 265.296 297.904 384.449 133.904 368.38 133.904 249.227 297.904"
+          style={{ fill: "#fff" }}
+        />
+        <polygon
+          points="274.566 297.904 279.51 297.904 398.664 133.904 393.719 133.904 274.566 297.904"
+          style={{ fill: "#fff" }}
+        />
+      </g>
+      <rect
+        x="170"
+        y="133.904"
+        width="260"
+        height="164"
+        rx="14"
+        style={{
+          fill: "none",
+          stroke: "#46505c",
+          strokeLinecap: "round",
+          strokeLinejoin: "round",
+          strokeWidth: "4px",
+        }}
+      />
+      <rect
+        x="237"
+        y="103.384"
+        width="126"
+        height="224"
+        transform="translate(515.384 -84.616) rotate(90)"
+        className="fill-primary/70"
+      />
+      <g style={{ opacity: "0.06" }}>
+        <polygon
+          points="264.409 278.384 280.478 278.384 372.022 152.384 355.953 152.384 264.409 278.384"
+          style={{ fill: "#fff" }}
+        />
+        <polygon
+          points="289.748 278.384 294.693 278.384 386.237 152.384 381.293 152.384 289.748 278.384"
+          style={{ fill: "#fff" }}
+        />
+      </g>
+      <rect
+        x="237"
+        y="103.384"
+        width="126"
+        height="224"
+        transform="translate(515.384 -84.616) rotate(90)"
+        style={{
+          fill: "none",
+          stroke: "#46505c",
+          strokeLinecap: "round",
+          strokeLinejoin: "round",
+        }}
+      />
+      <rect
+        x="170"
+        y="297.904"
+        width="260"
+        height="172"
+        rx="14"
+        style={{ fill: "#e6f3ff" }}
+      />
+      <rect
+        x="218"
+        y="257.904"
+        width="164"
+        height="252"
+        rx="10"
+        transform="translate(683.904 83.904) rotate(90)"
+        style={{
+          fill: "#fff",
+          stroke: "#e6f3ff",
+          strokeMiterlimit: "10",
+          strokeWidth: "2px",
+        }}
+      />
+      <path
+        d="M283.949,462.084h32.1a4,4,0,0,1,4,4v3.82a0,0,0,0,1,0,0h-40.1a0,0,0,0,1,0,0v-3.82a4,4,0,0,1,4-4Z"
+        style={{ fill: "#e6f3ff" }}
+      />
+      <rect
+        x="170"
+        y="297.904"
+        width="260"
+        height="172"
+        rx="14"
+        style={{
+          fill: "none",
+          stroke: "#46505c",
+          strokeLinecap: "round",
+          strokeLinejoin: "round",
+          strokeWidth: "4px",
+        }}
+      />
+      <rect
+        x="185"
+        y="311.323"
+        width="230"
+        height="92"
+        rx="3"
+        style={{ fill: "#e6f3ff" }}
+      />
+      <rect
+        x="216.084"
+        y="380.823"
+        width="14"
+        height="14"
+        rx="1"
+        style={{
+          fill: "none",
+          stroke: "#626c84",
+          strokeLinecap: "round",
+          strokeLinejoin: "round",
+        }}
+      />
+      <rect
+        x="194.446"
+        y="380.823"
+        width="14"
+        height="14"
+        rx="1"
+        style={{
+          fill: "none",
+          stroke: "#626c84",
+          strokeLinecap: "round",
+          strokeLinejoin: "round",
+        }}
+      />
+      <rect
+        x="237.723"
+        y="380.823"
+        width="100.554"
+        height="14"
+        rx="1"
+        style={{
+          fill: "none",
+          stroke: "#626c84",
+          strokeLinecap: "round",
+          strokeLinejoin: "round",
+        }}
+      />
+      <rect
+        x="345.916"
+        y="380.823"
+        width="14"
+        height="14"
+        rx="1"
+        style={{
+          fill: "none",
+          stroke: "#626c84",
+          strokeLinecap: "round",
+          strokeLinejoin: "round",
+        }}
+      />
+      <rect
+        x="381.554"
+        y="388.698"
+        width="10"
+        height="6.125"
+        rx="1"
+        style={{
+          fill: "none",
+          stroke: "#626c84",
+          strokeLinecap: "round",
+          strokeLinejoin: "round",
+        }}
+      />
+      <rect
+        x="381.554"
+        y="380.823"
+        width="10"
+        height="6.125"
+        rx="1"
+        style={{
+          fill: "none",
+          stroke: "#626c84",
+          strokeLinecap: "round",
+          strokeLinejoin: "round",
+        }}
+      />
+      <rect
+        x="395.554"
+        y="388.698"
+        width="10"
+        height="6.125"
+        rx="1"
+        style={{
+          fill: "none",
+          stroke: "#626c84",
+          strokeLinecap: "round",
+          strokeLinejoin: "round",
+        }}
+      />
+      <rect
+        x="367.554"
+        y="388.698"
+        width="10"
+        height="6.125"
+        rx="1"
+        style={{
+          fill: "none",
+          stroke: "#626c84",
+          strokeLinecap: "round",
+          strokeLinejoin: "round",
+        }}
+      />
+      <rect
+        x="194.446"
+        y="360.904"
+        width="33.639"
+        height="14"
+        rx="1"
+        style={{
+          fill: "none",
+          stroke: "#626c84",
+          strokeLinecap: "round",
+          strokeLinejoin: "round",
+        }}
+      />
+      <rect
+        x="235.904"
+        y="360.904"
+        width="14"
+        height="14"
+        rx="1"
+        style={{
+          fill: "none",
+          stroke: "#626c84",
+          strokeLinecap: "round",
+          strokeLinejoin: "round",
+        }}
+      />
+      <rect
+        x="257.542"
+        y="360.904"
+        width="14"
+        height="14"
+        rx="1"
+        style={{
+          fill: "none",
+          stroke: "#626c84",
+          strokeLinecap: "round",
+          strokeLinejoin: "round",
+        }}
+      />
+      <rect
+        x="279.181"
+        y="360.904"
+        width="14"
+        height="14"
+        rx="1"
+        style={{
+          fill: "none",
+          stroke: "#626c84",
+          strokeLinecap: "round",
+          strokeLinejoin: "round",
+        }}
+      />
+      <rect
+        x="300.819"
+        y="360.904"
+        width="14"
+        height="14"
+        rx="1"
+        style={{
+          fill: "none",
+          stroke: "#626c84",
+          strokeLinecap: "round",
+          strokeLinejoin: "round",
+        }}
+      />
+      <rect
+        x="322.458"
+        y="360.904"
+        width="14"
+        height="14"
+        rx="1"
+        style={{
+          fill: "none",
+          stroke: "#626c84",
+          strokeLinecap: "round",
+          strokeLinejoin: "round",
+        }}
+      />
+      <rect
+        x="344.096"
+        y="360.904"
+        width="14"
+        height="14"
+        rx="1"
+        style={{
+          fill: "none",
+          stroke: "#626c84",
+          strokeLinecap: "round",
+          strokeLinejoin: "round",
+        }}
+      />
+      <rect
+        x="367.554"
+        y="360.904"
+        width="38"
+        height="14"
+        rx="1"
+        style={{
+          fill: "none",
+          stroke: "#626c84",
+          strokeLinecap: "round",
+          strokeLinejoin: "round",
+        }}
+      />
+      <rect
+        x="228.084"
+        y="340.424"
+        width="14"
+        height="14"
+        rx="1"
+        style={{
+          fill: "none",
+          stroke: "#626c84",
+          strokeLinecap: "round",
+          strokeLinejoin: "round",
+        }}
+      />
+      <rect
+        x="194.446"
+        y="340.424"
+        width="26"
+        height="14"
+        rx="1"
+        style={{
+          fill: "none",
+          stroke: "#626c84",
+          strokeLinecap: "round",
+          strokeLinejoin: "round",
+        }}
+      />
+      <rect
+        x="249.723"
+        y="340.424"
+        width="14"
+        height="14"
+        rx="1"
+        style={{
+          fill: "none",
+          stroke: "#626c84",
+          strokeLinecap: "round",
+          strokeLinejoin: "round",
+        }}
+      />
+      <rect
+        x="271.361"
+        y="340.424"
+        width="14"
+        height="14"
+        rx="1"
+        style={{
+          fill: "none",
+          stroke: "#626c84",
+          strokeLinecap: "round",
+          strokeLinejoin: "round",
+        }}
+      />
+      <rect
+        x="293"
+        y="340.424"
+        width="14"
+        height="14"
+        rx="1"
+        style={{
+          fill: "none",
+          stroke: "#626c84",
+          strokeLinecap: "round",
+          strokeLinejoin: "round",
+        }}
+      />
+      <rect
+        x="314.639"
+        y="340.424"
+        width="14"
+        height="14"
+        rx="1"
+        style={{
+          fill: "none",
+          stroke: "#626c84",
+          strokeLinecap: "round",
+          strokeLinejoin: "round",
+        }}
+      />
+      <rect
+        x="336.277"
+        y="340.424"
+        width="14"
+        height="14"
+        rx="1"
+        style={{
+          fill: "none",
+          stroke: "#626c84",
+          strokeLinecap: "round",
+          strokeLinejoin: "round",
+        }}
+      />
+      <rect
+        x="357.916"
+        y="340.424"
+        width="14"
+        height="14"
+        rx="1"
+        style={{
+          fill: "none",
+          stroke: "#626c84",
+          strokeLinecap: "round",
+          strokeLinejoin: "round",
+        }}
+      />
+      <rect
+        x="379.554"
+        y="340.424"
+        width="26"
+        height="14"
+        rx="1"
+        style={{
+          fill: "none",
+          stroke: "#626c84",
+          strokeLinecap: "round",
+          strokeLinejoin: "round",
+        }}
+      />
+      <rect
+        x="216.347"
+        y="320.823"
+        width="14"
+        height="14"
+        rx="1"
+        style={{
+          fill: "none",
+          stroke: "#626c84",
+          strokeLinecap: "round",
+          strokeLinejoin: "round",
+        }}
+      />
+      <rect
+        x="194.446"
+        y="320.823"
+        width="14"
+        height="14"
+        rx="1"
+        style={{
+          fill: "none",
+          stroke: "#626c84",
+          strokeLinecap: "round",
+          strokeLinejoin: "round",
+        }}
+      />
+      <rect
+        x="238.248"
+        y="320.823"
+        width="14"
+        height="14"
+        rx="1"
+        style={{
+          fill: "none",
+          stroke: "#626c84",
+          strokeLinecap: "round",
+          strokeLinejoin: "round",
+        }}
+      />
+      <rect
+        x="260.149"
+        y="320.823"
+        width="14"
+        height="14"
+        rx="1"
+        style={{
+          fill: "none",
+          stroke: "#626c84",
+          strokeLinecap: "round",
+          strokeLinejoin: "round",
+        }}
+      />
+      <rect
+        x="282.05"
+        y="320.823"
+        width="14"
+        height="14"
+        rx="1"
+        style={{
+          fill: "none",
+          stroke: "#626c84",
+          strokeLinecap: "round",
+          strokeLinejoin: "round",
+        }}
+      />
+      <rect
+        x="303.95"
+        y="320.823"
+        width="14"
+        height="14"
+        rx="1"
+        style={{
+          fill: "none",
+          stroke: "#626c84",
+          strokeLinecap: "round",
+          strokeLinejoin: "round",
+        }}
+      />
+      <rect
+        x="325.851"
+        y="320.823"
+        width="14"
+        height="14"
+        rx="1"
+        style={{
+          fill: "none",
+          stroke: "#626c84",
+          strokeLinecap: "round",
+          strokeLinejoin: "round",
+        }}
+      />
+      <rect
+        x="347.752"
+        y="320.823"
+        width="14"
+        height="14"
+        rx="1"
+        style={{
+          fill: "none",
+          stroke: "#626c84",
+          strokeLinecap: "round",
+          strokeLinejoin: "round",
+        }}
+      />
+      <rect
+        x="369.653"
+        y="320.823"
+        width="14"
+        height="14"
+        rx="1"
+        style={{
+          fill: "none",
+          stroke: "#626c84",
+          strokeLinecap: "round",
+          strokeLinejoin: "round",
+        }}
+      />
+      <rect
+        x="391.554"
+        y="320.823"
+        width="14"
+        height="14"
+        rx="1"
+        style={{
+          fill: "none",
+          stroke: "#626c84",
+          strokeLinecap: "round",
+          strokeLinejoin: "round",
+        }}
+      />
+      <rect
+        x="216.084"
+        y="380.823"
+        width="14"
+        height="14"
+        rx="1"
+        style={{ fill: "#626c84" }}
+      />
+      <rect
+        x="194.446"
+        y="380.823"
+        width="14"
+        height="14"
+        rx="1"
+        style={{ fill: "#626c84" }}
+      />
+      <rect
+        x="237.723"
+        y="380.823"
+        width="100.554"
+        height="14"
+        rx="1"
+        style={{ fill: "#626c84" }}
+      />
+      <rect
+        x="345.916"
+        y="380.823"
+        width="14"
+        height="14"
+        rx="1"
+        style={{ fill: "#626c84" }}
+      />
+      <rect
+        x="381.554"
+        y="388.698"
+        width="10"
+        height="6.125"
+        rx="1"
+        style={{ fill: "#626c84" }}
+      />
+      <rect
+        x="381.554"
+        y="380.823"
+        width="10"
+        height="6.125"
+        rx="1"
+        style={{ fill: "#626c84" }}
+      />
+      <rect
+        x="395.554"
+        y="388.698"
+        width="10"
+        height="6.125"
+        rx="1"
+        style={{ fill: "#626c84" }}
+      />
+      <rect
+        x="367.554"
+        y="388.698"
+        width="10"
+        height="6.125"
+        rx="1"
+        style={{ fill: "#626c84" }}
+      />
+      <rect
+        x="194.446"
+        y="360.904"
+        width="33.639"
+        height="14"
+        rx="1"
+        style={{ fill: "#626c84" }}
+      />
+      <rect
+        x="235.904"
+        y="360.904"
+        width="14"
+        height="14"
+        rx="1"
+        style={{ fill: "#626c84" }}
+      />
+      <rect
+        x="257.542"
+        y="360.904"
+        width="14"
+        height="14"
+        rx="1"
+        style={{ fill: "#626c84" }}
+      />
+      <rect
+        x="279.181"
+        y="360.904"
+        width="14"
+        height="14"
+        rx="1"
+        style={{ fill: "#626c84" }}
+      />
+      <rect
+        x="300.819"
+        y="360.904"
+        width="14"
+        height="14"
+        rx="1"
+        style={{ fill: "#626c84" }}
+      />
+      <rect
+        x="322.458"
+        y="360.904"
+        width="14"
+        height="14"
+        rx="1"
+        style={{ fill: "#626c84" }}
+      />
+      <rect
+        x="344.096"
+        y="360.904"
+        width="14"
+        height="14"
+        rx="1"
+        style={{ fill: "#626c84" }}
+      />
+      <rect
+        x="367.554"
+        y="360.904"
+        width="38"
+        height="14"
+        rx="1"
+        style={{ fill: "#626c84" }}
+      />
+      <rect
+        x="228.084"
+        y="340.424"
+        width="14"
+        height="14"
+        rx="1"
+        style={{ fill: "#626c84" }}
+      />
+      <rect
+        x="194.446"
+        y="340.424"
+        width="26"
+        height="14"
+        rx="1"
+        style={{ fill: "#626c84" }}
+      />
+      <rect
+        x="249.723"
+        y="340.424"
+        width="14"
+        height="14"
+        rx="1"
+        style={{ fill: "#626c84" }}
+      />
+      <rect
+        x="271.361"
+        y="340.424"
+        width="14"
+        height="14"
+        rx="1"
+        style={{ fill: "#626c84" }}
+      />
+      <rect
+        x="293"
+        y="340.424"
+        width="14"
+        height="14"
+        rx="1"
+        style={{ fill: "#626c84" }}
+      />
+      <rect
+        x="314.639"
+        y="340.424"
+        width="14"
+        height="14"
+        rx="1"
+        style={{ fill: "#626c84" }}
+      />
+      <rect
+        x="336.277"
+        y="340.424"
+        width="14"
+        height="14"
+        rx="1"
+        style={{ fill: "#626c84" }}
+      />
+      <rect
+        x="357.916"
+        y="340.424"
+        width="14"
+        height="14"
+        rx="1"
+        style={{ fill: "#626c84" }}
+      />
+      <rect
+        x="379.554"
+        y="340.424"
+        width="26"
+        height="14"
+        rx="1"
+        style={{ fill: "#626c84" }}
+      />
+      <rect
+        x="216.347"
+        y="320.823"
+        width="14"
+        height="14"
+        rx="1"
+        style={{ fill: "#626c84" }}
+      />
+      <rect
+        x="194.446"
+        y="320.823"
+        width="14"
+        height="14"
+        rx="1"
+        style={{ fill: "#626c84" }}
+      />
+      <rect
+        x="238.248"
+        y="320.823"
+        width="14"
+        height="14"
+        rx="1"
+        style={{ fill: "#626c84" }}
+      />
+      <rect
+        x="260.149"
+        y="320.823"
+        width="14"
+        height="14"
+        rx="1"
+        style={{ fill: "#626c84" }}
+      />
+      <rect
+        x="282.05"
+        y="320.823"
+        width="14"
+        height="14"
+        rx="1"
+        style={{ fill: "#626c84" }}
+      />
+      <rect
+        x="303.95"
+        y="320.823"
+        width="14"
+        height="14"
+        rx="1"
+        style={{ fill: "#626c84" }}
+      />
+      <rect
+        x="325.851"
+        y="320.823"
+        width="14"
+        height="14"
+        rx="1"
+        style={{ fill: "#626c84" }}
+      />
+      <rect
+        x="347.752"
+        y="320.823"
+        width="14"
+        height="14"
+        rx="1"
+        style={{ fill: "#626c84" }}
+      />
+      <rect
+        x="369.653"
+        y="320.823"
+        width="14"
+        height="14"
+        rx="1"
+        style={{ fill: "#626c84" }}
+      />
+      <rect
+        x="391.554"
+        y="320.823"
+        width="14"
+        height="14"
+        rx="1"
+        style={{ fill: "#626c84" }}
+      />
+      <path
+        d="M215,288.92H385a0,0,0,0,1,0,0v13.446a4,4,0,0,1-4,4H219a4,4,0,0,1-4-4V288.92a0,0,0,0,1,0,0Z"
+        style={{ fill: "#626c84" }}
+      />
+      <rect
+        x="215"
+        y="288.92"
+        width="170"
+        height="2"
+        style={{ fill: "#fff", opacity: "0.12" }}
+      />
+      <path
+        d="M381,302.365H219a4,4,0,0,1-4-4v4a4,4,0,0,0,4,4H381a4,4,0,0,0,4-4v-4A4,4,0,0,1,381,302.365Z"
+        transform="translate(0 0)"
+        style={{ fill: "#626c84", opacity: "0.25", mixBlendMode: "multiply" }}
+      />
+      <path
+        d="M215,288.92H385a0,0,0,0,1,0,0v13.446a4,4,0,0,1-4,4H219a4,4,0,0,1-4-4V288.92a0,0,0,0,1,0,0Z"
+        style={{
+          fill: "none",
+          stroke: "#46505c",
+          strokeLinecap: "round",
+          strokeLinejoin: "round",
+          strokeWidth: "2px",
+        }}
+      />
+      <rect
+        x="263"
+        y="408.323"
+        width="74"
+        height="51"
+        rx="2"
+        style={{ fill: "#e6f3ff" }}
+      />
+      <rect
+        x="263"
+        y="408.323"
+        width="74"
+        height="51"
+        rx="2"
+        style={{
+          fill: "none",
+          stroke: "#626c84",
+          strokeLinecap: "round",
+          strokeLinejoin: "round",
+        }}
+      />
+      <circle
+        cx="300"
+        cy="144.052"
+        r="3"
+        style={{ fill: "#fff", opacity: "0.52" }}
+      />
+      <circle
+        cx="300"
+        cy="144.052"
+        r="3"
+        style={{
+          fill: "none",
+          stroke: "#46505c",
+          strokeLinecap: "round",
+          strokeLinejoin: "round",
+        }}
+      />
+      <rect
+        x="349.36"
+        y="165.129"
+        width="14"
+        height="2"
+        rx="1"
+        style={{ fill: "#fff" }}
+      />
+      <rect
+        x="375.334"
+        y="165.129"
+        width="14"
+        height="2"
+        rx="1"
+        style={{ fill: "#fff" }}
+      />
+      <rect
+        x="323.387"
+        y="165.129"
+        width="14"
+        height="2"
+        rx="1"
+        style={{ fill: "#fff" }}
+      />
+      <circle cx="207.233" cy="166.65" r="4.837" style={{ fill: "#fff" }} />
+      <g style={{ opacity: "0.72" }}>
+        <rect
+          x="249.324"
+          y="219.611"
+          width="101.234"
+          height="3.645"
+          style={{ fill: "#fff" }}
+        />
+        <rect
+          x="262.127"
+          y="207.513"
+          width="75.629"
+          height="3.698"
+          style={{ fill: "#fff" }}
+        />
+      </g>
+      <rect
+        x="283.113"
+        y="247.945"
+        width="39.773"
+        height="10.962"
+        rx="5.481"
+        style={{ fill: "none", stroke: "#fff", strokeMiterlimit: "10" }}
+      />
+      <polygon
+        points="199.191 600.399 199.191 600.399 404.591 600.399 404.591 600.399 199.191 600.399"
+        style={{ fill: "#331f5b", opacity: "0.15", mixBlendMode: "screen" }}
+      />
+      <polygon
+        points="199.191 600.399 199.191 600.399 404.591 600.399 404.591 600.399 199.191 600.399"
+        style={{ fill: "#331f5b", opacity: "0.15", mixBlendMode: "screen" }}
+      />
+    </g>
+  </svg>
+);

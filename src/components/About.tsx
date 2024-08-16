@@ -2,12 +2,14 @@ import Section from "@/shared/Section";
 import { VersionControl } from "./Abstracts";
 import TechStack from "./TechStack";
 import Subtitle from "./Typography";
+import AboutImage from "./AboutImage";
 
 const About = () => {
   return (
     <Section id="about">
       <div className="flex flex-col gap-10 md:flex-row md:items-center md:gap-20">
-        <VersionControl className="w-full shrink-0 md:w-1/2 md:md:max-w-lg" />
+        {/* <VersionControl className="w-full shrink-0 md:w-1/2 md:md:max-w-lg" /> */}
+        <AboutImage />
         <div>
           <Subtitle>About Me</Subtitle>
           <h3 className="mt-6 text-4xl text-foreground">
