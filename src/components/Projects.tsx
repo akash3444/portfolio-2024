@@ -69,7 +69,7 @@ const Projects = () => {
   return (
     <Section background="dark" id="projects">
       <Subtitle className="text-center">Portfolio</Subtitle>
-      <h3 className="text-foreground mt-6 text-center text-4xl font-extrabold">
+      <h3 className="mt-6 text-center text-4xl font-extrabold text-foreground">
         Latest Work
       </h3>
 
@@ -79,7 +79,7 @@ const Projects = () => {
             key={name}
             className="flex flex-col gap-8 md:flex-row md:items-start md:gap-14 md:even:flex-row-reverse"
           >
-            <div className="bg-card text-card-foreground w-full grow rounded p-2">
+            <div className="w-full grow rounded bg-card p-2 text-card-foreground">
               <img
                 src={imageUrl}
                 alt=""
@@ -95,8 +95,8 @@ const Projects = () => {
               </div>
             </div>
             <div className="shrink-0 md:w-1/2">
-              <h4 className="text-foreground text-3xl font-semibold">{name}</h4>
-              <p className="text-muted-foreground mt-4 text-[17px] leading-7">
+              <h4 className="text-3xl font-semibold text-foreground">{name}</h4>
+              <p className="mt-4 text-[17px] leading-[1.6rem] text-muted-foreground">
                 {description}
               </p>
               <Link href={url} target="_blank">

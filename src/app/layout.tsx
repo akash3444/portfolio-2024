@@ -1,10 +1,15 @@
 import type { Metadata } from "next";
-import { Space_Grotesk } from "next/font/google";
+import { Bricolage_Grotesque } from "next/font/google";
 import "./globals.css";
 import { CSPostHogProvider, ThemeProvider } from "@/providers";
 import { TooltipProvider } from "@/components/ui/tooltip";
+import { cn } from "@/lib/utils";
 
-const epilogue = Space_Grotesk({ subsets: ["latin"] });
+const bricolageGrotesque = Bricolage_Grotesque({
+  subsets: ["latin"],
+  weight: ["400", "500", "600", "700", "800"],
+  variable: "--font-bricolage-grotesque",
+});
 
 const title = "Akash Moradiya | React.js/Next.js Developer";
 const description =
@@ -88,7 +93,7 @@ export default function RootLayout({
         <meta name="theme-color" content="#ffffff" />
       </head>
       <CSPostHogProvider>
-        <body className={epilogue.className}>
+        <body className={bricolageGrotesque.className}>
           <ThemeProvider>
             <TooltipProvider>{children}</TooltipProvider>
           </ThemeProvider>
