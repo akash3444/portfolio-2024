@@ -1,0 +1,8 @@
+{
+  "rewrites": [
+    {
+      "source": "/docs/:path*",
+      "destination": "https://my-docs-livid-six.vercel.app/:path*"
+    }
+  ]
+}
