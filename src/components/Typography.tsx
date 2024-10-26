@@ -7,12 +7,12 @@ export const Subtitle: FC<PropsWithChildren<ComponentProps<"h6">>> = ({
   ...props
 }) => {
   return (
-    <h6
-      className={cn("uppercase tracking-[3px] text-primary", className)}
+    <span
+      className={cn("block uppercase tracking-[3px] text-primary", className)}
       {...props}
     >
       {children}
-    </h6>
+    </span>
   );
 };
 

@@ -27,7 +27,7 @@ const ContactMe = () => {
           className="mt-6 inline-block"
         >
           <div className="flex items-center gap-2">
-            <Button size="icon" className="rounded-full">
+            <Button size="icon" className="rounded-full" aria-label="My email">
               <MailIcon className="h-5 w-5" />
             </Button>
             <span>akashmoradiya3444@gmail.com</span>

@@ -17,7 +17,7 @@ const ThemeSelector = () => {
       <Tooltip>
         <TooltipTrigger asChild>
           <PopoverTrigger asChild>
-            <Button variant="ghost" size="icon">
+            <Button variant="ghost" size="icon" aria-label="Open theme palette">
               <PaletteIcon />
             </Button>
           </PopoverTrigger>

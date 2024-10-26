@@ -78,7 +78,10 @@ const Projects = async () => {
               </p>
               {url && (
                 <Link href={url} target="_blank">
-                  <Button className="mt-6">
+                  <Button
+                    className="mt-6"
+                    aria-label={`View the live website for ${name}`}
+                  >
                     View Live
                     <ArrowUpRightIcon className="mb-1 h-5 w-5 align-top" />
                   </Button>

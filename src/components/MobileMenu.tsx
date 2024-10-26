@@ -25,7 +25,10 @@ const MobileMenu = () => {
   return (
     <Sheet>
       <SheetTrigger asChild>
-        <button className="rounded border border-border p-1.5 text-foreground md:hidden">
+        <button
+          className="rounded border border-border p-1.5 text-foreground md:hidden"
+          aria-label="Open menu"
+        >
           <MenuIcon />
         </button>
       </SheetTrigger>
