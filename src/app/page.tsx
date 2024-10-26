@@ -15,6 +15,7 @@ export default function Home() {
         <img
           src="/background-texture.jpg"
           className="absolute inset-0 h-full w-full object-cover opacity-15"
+          alt="Background texture"
         />
         <Section
           background="dark"
