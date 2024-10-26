@@ -187,11 +187,21 @@ export type AllSanitySchemaTypes =
 export declare const internalGroqTypeReferenceTo: unique symbol;
 // Source: ./src/sanity/lib/queries.ts
 // Variable: PROJECTS_QUERY
-// Query: *[_type == 'project'] {  name,  description,  "image": image.asset->url,  techStack[]-> {    name, "slug": slug.current  },  url}
+// Query: *[_type == 'project'] {  name,  description,  image,  techStack[]-> {    name, "slug": slug.current  },  url}
 export type PROJECTS_QUERYResult = Array<{
   name: string;
   description: string;
-  image: string | null;
+  image: {
+    asset: {
+      _ref: string;
+      _type: "reference";
+      _weak?: boolean;
+      [internalGroqTypeReferenceTo]?: "sanity.imageAsset";
+    };
+    hotspot?: SanityImageHotspot;
+    crop?: SanityImageCrop;
+    _type: "image";
+  };
   techStack: Array<{
     name: string;
     slug: string;
@@ -203,6 +213,6 @@ export type PROJECTS_QUERYResult = Array<{
 import "@sanity/client";
 declare module "@sanity/client" {
   interface SanityQueries {
-    '*[_type == \'project\'] {\n  name,\n  description,\n  "image": image.asset->url,\n  techStack[]-> {\n    name, "slug": slug.current\n  },\n  url\n}': PROJECTS_QUERYResult;
+    "*[_type == 'project'] {\n  name,\n  description,\n  image,\n  techStack[]-> {\n    name, \"slug\": slug.current\n  },\n  url\n}": PROJECTS_QUERYResult;
   }
 }

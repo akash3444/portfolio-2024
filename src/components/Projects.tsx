@@ -14,6 +14,8 @@ import Subtitle from "./Typography";
 import { Button } from "./ui/button";
 import { client } from "@/sanity/lib/client";
 import { PROJECTS_QUERY } from "@/sanity/lib/queries";
+import { urlFor } from "@/sanity/lib/image";
+import Image from "next/image";
 
 const icons: Record<string, FC<SVGProps<SVGSVGElement>>> = {
   "react-js": ReactIcon,
@@ -23,6 +25,9 @@ const icons: Record<string, FC<SVGProps<SVGSVGElement>>> = {
   typescript: TypeScriptIcon,
   "next-ui": NextUiIcon,
 };
+
+const IMAGE_HEIGHT = 386;
+const IMAGE_WIDTH = 687;
 
 const Projects = async () => {
   const projectList = await client.fetch(
@@ -45,10 +50,17 @@ const Projects = async () => {
             className="flex flex-col gap-8 md:flex-row md:items-start md:gap-14 md:even:flex-row-reverse"
           >
             <div className="w-full grow rounded bg-card p-2 text-card-foreground">
-              <img
-                src={image!}
+              <Image
+                src={urlFor(image.asset).size(IMAGE_WIDTH, IMAGE_HEIGHT).url()}
                 alt={name}
                 className="aspect-video h-full w-full object-cover"
+                height={IMAGE_HEIGHT}
+                width={IMAGE_WIDTH}
+                blurDataURL={urlFor(image.asset)
+                  .size(IMAGE_WIDTH, IMAGE_HEIGHT)
+                  .blur(80)
+                  .url()}
+                placeholder="blur"
               />
 
               <div className="mb-1 mt-2 flex items-center justify-center gap-4">
