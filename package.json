@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "typegen": "sanity schema extract --path='./src/sanity/extract.json' --enforce-required-fields && sanity typegen generate"
   },
   "dependencies": {
     "@emailjs/browser": "^4.3.3",
