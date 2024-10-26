@@ -12,60 +12,21 @@ import {
 } from "./Icons";
 import Subtitle from "./Typography";
 import { Button } from "./ui/button";
-
-const projects = [
-  {
-    name: "Hashnode Hub",
-    description: `Hashnode Hub is an ongoing project aimed at replicating the
-    functionality of Hashnode, a feature-rich blogging and community
-    platform. This project leverages the latest advancements in
-    Next.js 14, including the new app router and server components.
-    It is built with a modern tech stack that includes Next.js,
-    Tailwind CSS, Next UI, and TypeScript.`,
-    imageUrl: "/projects/hashnode-hub.webp",
-    url: "https://hashnode-hub.vercel.app/",
-    technologies: ["react", "next", "typescript", "tailwind", "nextUi"],
-  },
-  {
-    name: "Little Learners Academy",
-    description: `Little Learners Academy is a vibrant kindergarten school website prototype, converted from design to a web interface. Built using Next.js, Tailwind CSS, and ShadCN UI, this project showcases my skills in transforming design concepts into responsive and visually appealing websites.`,
-    imageUrl: "/projects/little-learners-academy.webp",
-    url: "https://little-learners.vercel.app/",
-    technologies: ["react", "next", "typescript", "tailwind", "shadcn"],
-  },
-  {
-    name: "StreamVibe",
-    description: `StreamVibe is a sleek and modern OTT platform website prototype, designed to provide an engaging user experience for streaming content. This project, also converted from design to web interface, is built using Next.js, Tailwind CSS, and ShadCN UI.`,
-    imageUrl: "/projects/streamvibe.webp",
-    url: "https://streamvibe-ott.vercel.app/",
-    technologies: ["react", "next", "typescript", "tailwind", "shadcn"],
-  },
-  {
-    name: "Unit Converter",
-    description: `The Universal Unit Converter is an efficient tool designed for fast and accurate unit conversions. Enter a value and instantly get the result in another unit. This project supports various conversions including Length, Area, Mass, Volume, Temperature, and many more. Built with React, Next.js, and Tailwind CSS, it ensures a seamless and modern user experience.`,
-    imageUrl: "/projects/mass-unit-converter.webp",
-    url: "https://mass-unit-converter.vercel.app/",
-    technologies: ["react", "next", "tailwind"],
-  },
-  {
-    name: "Anime World",
-    description: `Anime World is a dynamic website dedicated to listing animes, mangas, and characters. With a sleek and intuitive interface, users can effortlessly browse and view detailed information about their favorite animes and mangas, as well as explore character profiles. Built using React, Next.js, and Chakra UI, Anime World offers a seamless and engaging user experience for anime enthusiasts.`,
-    imageUrl: "/projects/anime-world.webp",
-    url: "https://anime-world-nextjs.vercel.app/",
-    technologies: ["react", "next"],
-  },
-];
+import { client } from "@/sanity/lib/client";
+import { PROJECTS_QUERY } from "@/sanity/lib/queries";
 
 const icons: Record<string, FC<SVGProps<SVGSVGElement>>> = {
-  react: ReactIcon,
-  next: NextIcon,
-  tailwind: TailwindIcon,
-  shadcn: ShadCnUiIcon,
+  "react-js": ReactIcon,
+  "next-js": NextIcon,
+  "tailwind-css": TailwindIcon,
+  "shadcn-ui": ShadCnUiIcon,
   typescript: TypeScriptIcon,
-  nextUi: NextUiIcon,
+  "next-ui": NextUiIcon,
 };
 
-const Projects = () => {
+const Projects = async () => {
+  const projectList = await client.fetch(PROJECTS_QUERY);
+
   return (
     <Section background="dark" id="projects">
       <Subtitle className="text-center">Portfolio</Subtitle>
@@ -74,23 +35,23 @@ const Projects = () => {
       </h3>
 
       <div className="mt-20 space-y-20">
-        {projects.map(({ name, description, imageUrl, url, technologies }) => (
+        {projectList.map(({ name, description, image, techStack, url }) => (
           <div
             key={name}
             className="flex flex-col gap-8 md:flex-row md:items-start md:gap-14 md:even:flex-row-reverse"
           >
             <div className="w-full grow rounded bg-card p-2 text-card-foreground">
               <img
-                src={imageUrl}
-                alt=""
+                src={image!}
+                alt={name}
                 className="aspect-video h-full w-full object-cover"
               />
 
               <div className="mb-1 mt-2 flex items-center justify-center gap-4">
-                {technologies.map((technology) => {
-                  const Icon = icons[technology] ?? Fragment;
+                {techStack.map((technology) => {
+                  const Icon = icons[technology.slug] ?? Fragment;
 
-                  return <Icon key={technology} />;
+                  return <Icon key={technology.slug} />;
                 })}
               </div>
             </div>
@@ -99,12 +60,14 @@ const Projects = () => {
               <p className="mt-4 text-[17px] leading-[1.6rem] text-muted-foreground">
                 {description}
               </p>
-              <Link href={url} target="_blank">
-                <Button className="mt-6">
-                  View Live
-                  <ArrowUpRightIcon className="mb-1 h-5 w-5 align-top" />
-                </Button>
-              </Link>
+              {url && (
+                <Link href={url} target="_blank">
+                  <Button className="mt-6">
+                    View Live
+                    <ArrowUpRightIcon className="mb-1 h-5 w-5 align-top" />
+                  </Button>
+                </Link>
+              )}
             </div>
           </div>
         ))}
