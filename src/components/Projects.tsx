@@ -25,7 +25,11 @@ const icons: Record<string, FC<SVGProps<SVGSVGElement>>> = {
 };
 
 const Projects = async () => {
-  const projectList = await client.fetch(PROJECTS_QUERY);
+  const projectList = await client.fetch(
+    PROJECTS_QUERY,
+    {},
+    { cache: "no-store" },
+  );
 
   return (
     <Section background="dark" id="projects">
