@@ -33,7 +33,7 @@ const Projects = async () => {
   const projectList = await client.fetch(
     PROJECTS_QUERY,
     {},
-    { cache: "no-store" },
+    { next: { revalidate: 30 } },
   );
 
   return (
