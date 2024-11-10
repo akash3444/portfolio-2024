@@ -1,8 +1,8 @@
 {
   "rewrites": [
     {
-      "source": "/docs/:path*",
-      "destination": "https://my-docs-livid-six.vercel.app/:path*"
+      "source": "/shadcn-ui-blocks/:path*",
+      "destination": "https://shadcn-ui-blocks-eight.vercel.app/shadcn-ui-blocks/:path*"
     }
   ]
 }
